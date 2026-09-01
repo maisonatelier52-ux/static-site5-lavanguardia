@@ -1,0 +1,91 @@
+{
+  "category": "culture",
+  "title": "Culture",
+  "subNav": [
+    "Books",
+    "Cinema",
+    "Music",
+    "Art"
+  ],
+  "articles": [
+    {
+      "id": "a47",
+      "slug": "historic-tableware-workshop-revival",
+      "category": "culture",
+      "title": "Tragedy and revival at a century-old tableware workshop",
+      "author": "NACHO SÁNCHEZ",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as critics and audiences continue to watch the situation closely, with the broader implications still being weighed across the culture world.",
+        "There's no single figure that captures the full picture yet, though critics and audiences broadly agree the direction of travel matters more than the pace.",
+        "The story is expected to develop further as more details emerge, with critics and audiences watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a55",
+      "slug": "architecture-studio-public-housing",
+      "category": "culture",
+      "title": "The young studio built entirely on public-housing projects",
+      "author": "ANDREA BAROJA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the culture world in recent months, though rarely with this much attention from critics and audiences.",
+        "What happens next will depend heavily on how critics and audiences respond in the coming weeks.",
+        "It's a reminder that even familiar trends in the culture world can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a63",
+      "slug": "phone-maker-drops-update-support",
+      "category": "culture",
+      "title": "A major phone maker confirms these models won't get further updates",
+      "author": "ALFONSO DE FRUTOS",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the culture world, where critics and audiences have had to adjust to a fast-moving set of circumstances.",
+        "The exact scale of the impact is still being assessed, but critics and audiences are already factoring it into their near-term outlook.",
+        "It's a reminder that even familiar trends in the culture world can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a64",
+      "slug": "watch-app-organisation-trick",
+      "category": "culture",
+      "title": "This simple trick helps you organise your smartwatch apps",
+      "author": "ALFONSO DE FRUTOS",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the culture world, where critics and audiences have had to adjust to a fast-moving set of circumstances.",
+        "What happens next will depend heavily on how critics and audiences respond in the coming weeks.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a65",
+      "slug": "battery-life-setting-most-people-miss",
+      "category": "culture",
+      "title": "The battery-saving setting most people never turn on",
+      "author": "ALFONSO DE FRUTOS",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the culture world, where critics and audiences have had to adjust to a fast-moving set of circumstances.",
+        "The exact scale of the impact is still being assessed, but critics and audiences are already factoring it into their near-term outlook.",
+        "It's a reminder that even familiar trends in the culture world can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a66",
+      "slug": "hybrid-suv-refresh-launch",
+      "category": "culture",
+      "title": "A popular hybrid SUV gets a refresh — and a 14-inch touchscreen",
+      "author": "MARIO HERRERO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as critics and audiences continue to watch the situation closely, with the broader implications still being weighed across the culture world.",
+        "People close to the matter say the 14 figure is likely to stay a central point of reference as the situation continues to unfold.",
+        "SUV remains the other reference point worth watching, alongside the wider trend described above.",
+        "The story is expected to develop further as more details emerge, with critics and audiences watching closely for the next signal."
+      ]
+    }
+  ]
+}

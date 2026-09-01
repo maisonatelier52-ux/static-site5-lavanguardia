@@ -1,0 +1,67 @@
+{
+  "category": "policy",
+  "title": "Policy",
+  "subNav": [
+    "Government",
+    "Justice",
+    "Elections",
+    "Autonomous communities"
+  ],
+  "articles": [
+    {
+      "id": "a9",
+      "slug": "supreme-court-telecoms-fine-upheld",
+      "category": "policy",
+      "time": "06:48",
+      "title": "Top court upholds multimillion-dollar fines against telecoms firms over customer data sales",
+      "body": [
+        "Similar developments have unfolded elsewhere in policy circles in recent months, though rarely with this much attention from lawmakers and regulators.",
+        "The exact scale of the impact is still being assessed, but lawmakers and regulators are already factoring it into their near-term outlook.",
+        "It's a reminder that even familiar trends in policy circles can still produce genuine surprises."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a24",
+      "slug": "eu-regulators-delist-unlicensed-crypto-firms",
+      "category": "policy",
+      "tag": "Policy",
+      "title": "EU regulators strike more than 1,000 unlicensed crypto firms from the register",
+      "author": "ELENA CASTRO | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when lawmakers and regulators are already reassessing their expectations for policy circles.",
+        "People close to the matter say the 1,000 figure is likely to stay a central point of reference as the situation continues to unfold.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a36",
+      "slug": "labour-ministry-rival-seeks-us-support",
+      "category": "policy",
+      "tag": "Policy",
+      "title": "A rival candidate for a top labour post seeks US backing in a leadership contest",
+      "dek": "The outgoing chief leaves the door open for a return to unpaid dues going unresolved.",
+      "author": "RAQUEL PASCUAL",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in policy circles, where lawmakers and regulators have had to adjust to a fast-moving set of circumstances.",
+        "There's no single figure that captures the full picture yet, though lawmakers and regulators broadly agree the direction of travel matters more than the pace.",
+        "For now, lawmakers and regulators are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a57",
+      "slug": "workplace-misinformation-guidance",
+      "category": "policy",
+      "title": "Beware of workplace “fake news”: how to check whether a ruling still applies",
+      "author": "JOSÉ BARJOLA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in policy circles in recent months, though rarely with this much attention from lawmakers and regulators.",
+        "What happens next will depend heavily on how lawmakers and regulators respond in the coming weeks.",
+        "It's a reminder that even familiar trends in policy circles can still produce genuine surprises."
+      ]
+    }
+  ]
+}

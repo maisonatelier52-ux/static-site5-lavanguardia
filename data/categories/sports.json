@@ -1,0 +1,25 @@
+{
+  "category": "sports",
+  "title": "Sports",
+  "subNav": [
+    "Football",
+    "Basketball",
+    "Tennis",
+    "Cycling"
+  ],
+  "articles": [
+    {
+      "id": "a67",
+      "slug": "grand-tour-mountain-stage-judge",
+      "category": "sports",
+      "title": "The quiet judge deciding the outcome of this year's mountain stages",
+      "author": "DANIEL MIRANDA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in sports, where fans and analysts have had to adjust to a fast-moving set of circumstances.",
+        "There's no single figure that captures the full picture yet, though fans and analysts broadly agree the direction of travel matters more than the pace.",
+        "For now, fans and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    }
+  ]
+}

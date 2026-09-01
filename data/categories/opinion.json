@@ -1,0 +1,127 @@
+{
+  "category": "opinion",
+  "title": "Opinion",
+  "subNav": [
+    "Editorials",
+    "Columnists",
+    "Letters",
+    "Cartoons"
+  ],
+  "articles": [
+    {
+      "id": "a6",
+      "slug": "tax-freedom-day-debate",
+      "category": "opinion",
+      "title": "“Tax Freedom Day” returns: a useful economic gauge or an anti-tax talking point?",
+      "dek": "A group of liberal economists is publicising the date to illustrate how many working days go toward tax obligations.",
+      "author": "DAVID PRIETO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as readers and commentators continue to watch the situation closely, with the broader implications still being weighed across public debate.",
+        "People close to the matter say Freedom Day is likely to stay a central point of reference as the situation continues to unfold.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a28",
+      "slug": "editorial-online-marketplace-risk",
+      "category": "opinion",
+      "kicker": "Editorial",
+      "title": "The double risk of low-cost online marketplaces reaching Spain",
+      "dek": "A small per-parcel charge on low-value imports is an insufficient patch for a much bigger problem: domestic retailers competing against a wave of ultra-cheap goods with little regulatory oversight.",
+      "author": "THE EDITORIAL BOARD",
+      "body": [
+        "The government's proposed charge on low-value parcels is a reasonable first step, but it treats the symptom rather than the underlying imbalance. Ultra-cheap online marketplaces have built their model on shipping small, individually-taxed packages directly to consumers, sidestepping the customs and compliance costs that domestic retailers absorb as a matter of course.",
+        "A flat per-parcel fee will raise some revenue and modestly narrow the price gap, but it does nothing to address product safety standards, labour conditions in supplier factories, or the environmental cost of shipping millions of single items by air freight.",
+        "Spain, like much of the EU, now has to decide whether it wants a durable framework for this kind of trade or a patchwork of reactive charges that arrive a decade too late."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a29",
+      "slug": "bond-tailwind-fading",
+      "category": "opinion",
+      "tag": "Opinion",
+      "title": "The tailwind behind bonds is no longer blowing for equities",
+      "dek": "Government-debt yields have climbed to levels not seen since the financial crisis.",
+      "author": "JON JÁUREGUI",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as readers and commentators continue to watch the situation closely, with the broader implications still being weighed across public debate.",
+        "Those following the story point to Government-debt as a key part of the picture, one that could shape how things develop from here.",
+        "For now, readers and commentators are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a30",
+      "slug": "learned-helplessness-markets",
+      "category": "opinion",
+      "tag": "Opinion",
+      "title": "Learned helplessness: when uncertainty stops feeling exceptional",
+      "dek": "Uncertainty is turning from an occasional shock into a structural feature investors have to price in.",
+      "author": "ALBERTO GONZÁLEZ",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in public debate, where readers and commentators have had to adjust to a fast-moving set of circumstances.",
+        "People close to the matter say Uncertainty is likely to stay a central point of reference as the situation continues to unfold.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a31",
+      "slug": "debt-reshapes-the-roadmap",
+      "category": "opinion",
+      "title": "Debt is quietly rewriting the financial roadmap",
+      "dek": "The bond market is issuing a warning even as equity indices keep climbing.",
+      "author": "FIVE DAYS",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in public debate in recent months, though rarely with this much attention from readers and commentators.",
+        "The exact scale of the impact is still being assessed, but readers and commentators are already factoring it into their near-term outlook.",
+        "The story is expected to develop further as more details emerge, with readers and commentators watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a60",
+      "slug": "reinsurer-cyber-underwriting-view",
+      "category": "opinion",
+      "tag": "Opinion",
+      "title": "A reinsurer wades into the murky waters of cyber cover",
+      "author": "AIMEE ROLLAND",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in public debate in recent months, though rarely with this much attention from readers and commentators.",
+        "The exact scale of the impact is still being assessed, but readers and commentators are already factoring it into their near-term outlook.",
+        "The story is expected to develop further as more details emerge, with readers and commentators watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a61",
+      "slug": "bank-charter-crypto-view",
+      "category": "opinion",
+      "tag": "Opinion",
+      "title": "Crypto firms are rubbing their hands together over easier bank charters",
+      "author": "STEPHEN GANDARA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when readers and commentators are already reassessing their expectations for public debate.",
+        "What happens next will depend heavily on how readers and commentators respond in the coming weeks.",
+        "It's a reminder that even familiar trends in public debate can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a62",
+      "slug": "europe-competitiveness-view",
+      "category": "opinion",
+      "tag": "Opinion",
+      "title": "Europe is underestimating how much it is falling behind",
+      "author": "JON JÁUREGUI",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when readers and commentators are already reassessing their expectations for public debate.",
+        "What happens next will depend heavily on how readers and commentators respond in the coming weeks.",
+        "The story is expected to develop further as more details emerge, with readers and commentators watching closely for the next signal."
+      ]
+    }
+  ]
+}

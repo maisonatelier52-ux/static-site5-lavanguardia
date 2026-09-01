@@ -1,0 +1,746 @@
+{
+  "category": "economy",
+  "title": "Economy",
+  "subNav": [
+    "Dwelling",
+    "Employment",
+    "Taxes",
+    "Policy"
+  ],
+  "articles": [
+    {
+      "id": "a1",
+      "slug": "cross-border-parcels-diverted-to-discount-platforms",
+      "category": "economy",
+      "title": "Retailers warn that over €20 billion in sales could shift to discount marketplaces by 2030",
+      "dek": "Traditional retail groups are pushing regulators for stronger powers to sanction platforms that skirt consumer rules.",
+      "author": "MARÍA FERNÁNDEZ | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "€20 billion is the number most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a2",
+      "slug": "private-equity-dividend-recapitalisations-rise",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "Private equity firms lean on portfolio-company debt to fund investor payouts",
+      "dek": "With deal-making stalled, dividend recapitalisations have surged as managers look for other ways to return cash.",
+      "author": "PABLO IBÁÑEZ | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a3",
+      "slug": "long-term-debt-rout-pushes-savers-to-money-markets",
+      "category": "economy",
+      "title": "The long-duration bond selloff is pushing savers back toward money-market funds",
+      "dek": "Rising yields are causing losses in longer-term funds and forcing a rethink of conservative investment strategies.",
+      "author": "NURIA SALAS | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a4",
+      "slug": "los-berrocales-madrid-construction-milestone",
+      "category": "economy",
+      "title": "The new Los Berrocales district in Madrid advances past 2,000 homes under construction",
+      "dek": "The development is now the most advanced of the capital's new southeastern districts.",
+      "author": "ALFONSO ROMÁN | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "Put in context, 2,000 is the detail that's drawn the most attention from those following the story.",
+        "Los Berrocales remains the other reference point worth watching, alongside the wider trend described above.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a5",
+      "slug": "humanoid-robotics-stock-debut-shanghai",
+      "category": "economy",
+      "title": "Small investors pile into humanoid robotics after a blockbuster Shanghai listing",
+      "dek": "The debut closed with a sharp first-session gain and demand many multiples above the shares on offer.",
+      "author": "ELENA CASTRO | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "Those following the story point to Shanghai as a key part of the picture, one that could shape how things develop from here.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a8",
+      "slug": "job-vacancies-drop-second-quarter",
+      "category": "economy",
+      "time": "07:21",
+      "title": "Unfilled job vacancies fall by more than 16,000 in the second quarter, the sharpest drop since 2008",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "The figures involved — 16,000 — underline the scale of what's being described, even as the full picture is still emerging.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a10",
+      "slug": "eurozone-inflation-energy-prices-july",
+      "category": "economy",
+      "title": "European energy prices climb again, adding more than 10% in July",
+      "dek": "Eurostat confirms eurozone inflation held at 2.9%, with the sharpest pressure showing up in southern economies.",
+      "author": "SILVIA ROMERO / AGENCIES",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "People close to the matter say the 10% figure is likely to stay a central point of reference as the situation continues to unfold.",
+        "Eurostat remains the other reference point worth watching, alongside the wider trend described above.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a11",
+      "slug": "fuel-prices-subsidy-withdrawal",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "Fuel prices lead European increases as subsidies are gradually withdrawn",
+      "dek": "Analysts also point to lower taxes, which make local pump prices more sensitive to international swings.",
+      "author": "CARLOS MENA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "People close to the matter say European is likely to stay a central point of reference as the situation continues to unfold.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a12",
+      "slug": "landlords-offset-tax-benefit-cuts",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "Landlords offset reduced tax breaks under the new housing law by raising rents",
+      "dek": "Total deductions claimed rose in 2024 even after regulators trimmed the benefit built into the law.",
+      "author": "PABLO SEMPERE",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "Put in context, 2024 is the detail that's drawn the most attention from those following the story.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a13",
+      "slug": "blackout-shield-cost-regulation",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "Regulators open a public consultation on who pays for grid resilience upgrades",
+      "dek": "The proposal would pass a large share of the additional cost on to regulated electricity bills.",
+      "author": "CARMEN OTERO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a14",
+      "slug": "reinsurer-cyber-insurance-push",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "A major reinsurer wades into the murky waters of cyber insurance",
+      "dek": "Underwriting a fast-growing, poorly understood risk category comes with its own hazards.",
+      "author": "AIMEE ROLLAND",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "People close to the matter say Underwriting is likely to stay a central point of reference as the situation continues to unfold.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a15",
+      "slug": "stablecoin-issuers-and-bank-charters",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "Stablecoin issuers courting a bank charter are rubbing their hands together",
+      "dek": "A new licensing path could hand crypto-native firms a shortcut into regulated banking.",
+      "author": "STEPHEN GANDARA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a17",
+      "slug": "olive-oil-group-explores-sale",
+      "category": "economy",
+      "title": "Olive oil group confirms shareholders are exploring a sale after a sharp stock rally",
+      "dek": "Owners have reportedly been weighing a full or partial sale of the business since June.",
+      "author": "JAVIER ROIG | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "People close to the matter say Owners is likely to stay a central point of reference as the situation continues to unfold.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a18",
+      "slug": "electric-hypercar-auction-record",
+      "category": "economy",
+      "title": "A new electric hypercar breaks the $40 million mark at auction",
+      "dek": "The winning bid set a new benchmark for production electric vehicles at a marquee summer sale.",
+      "author": "AGENCIES | London",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "The figures involved — $40 million — underline the scale of what's being described, even as the full picture is still emerging.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a19",
+      "slug": "how-to-navigate-a-market-correction",
+      "category": "economy",
+      "title": "How to position a portfolio if a stock-market correction hits",
+      "author": "PABLO IBÁÑEZ | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a20",
+      "slug": "extra-monthly-income-from-dividends",
+      "category": "economy",
+      "title": "How much capital would you need to generate €500 a month in dividends?",
+      "author": "RICARDO SOLER | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "Put in context, €500 is the detail that's drawn the most attention from those following the story.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a21",
+      "slug": "synthetic-gems-hit-diamond-prices",
+      "category": "economy",
+      "title": "Lab-grown gems wipe out half the resale value of natural diamonds in three years",
+      "author": "CAIO MATTOS | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a22",
+      "slug": "stablecoin-issuer-banking-license",
+      "category": "economy",
+      "title": "Regulators grant a first banking license to a major stablecoin issuer",
+      "dek": "The approval lets the firm directly issue its stablecoin and custody customer reserves without a bank partner.",
+      "author": "ELENA CASTRO | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a23",
+      "slug": "banks-compete-for-blockchain-talent",
+      "category": "economy",
+      "title": "“Blockchain engineer wanted”: banks and fintechs compete for scarce talent",
+      "author": "ELENA CASTRO | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a25",
+      "slug": "wall-street-crypto-darlings-cool-off",
+      "category": "economy",
+      "title": "From frenzy to pullback: the crypto listings that cooled off on Wall Street",
+      "author": "ELENA CASTRO | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "People close to the matter say Wall Street is likely to stay a central point of reference as the situation continues to unfold.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a26",
+      "slug": "custody-providers-scale-up",
+      "category": "economy",
+      "title": "Digital-asset custody providers scale up ahead of expected institutional demand",
+      "author": "JAVIER ROIG | Madrid",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a27",
+      "slug": "stablecoin-reserves-audit-standards",
+      "category": "economy",
+      "title": "Auditors push for a common standard on stablecoin reserve reporting",
+      "author": "DAVID PRIETO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a32",
+      "slug": "shipping-freight-rates-climb",
+      "category": "economy",
+      "title": "Container freight rates climb again as capacity tightens ahead of peak season",
+      "dek": "Carriers are passing on higher costs just as retailers finalise winter restocking orders.",
+      "author": "SILVIA ROMERO / AGENCIES",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "Carriers is the name most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a33",
+      "slug": "unfair-fee-fine-car-rental",
+      "category": "economy",
+      "title": "Consumer watchdog fines a car-rental firm over disputed handling charges",
+      "dek": "Regulators called the fee an “abusive practice” that places a disproportionate burden on renters.",
+      "author": "RODRIGO CANALES",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "People close to the matter say Regulators is likely to stay a central point of reference as the situation continues to unfold.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a34",
+      "slug": "portugal-blackout-shield-consultation",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "Portugal moves ahead of Spain in regulating the cost of grid resilience upgrades",
+      "dek": "The Portuguese regulator proposes passing 40% of the additional cost on to the regulated share of bills.",
+      "author": "CARMEN OTERO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "People close to the matter say the 40% figure is likely to stay a central point of reference as the situation continues to unfold.",
+        "Spain remains the other reference point worth watching, alongside the wider trend described above.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a35",
+      "slug": "airline-suspends-caribbean-route",
+      "category": "economy",
+      "title": "A major carrier extends its suspension of Caribbean flights into 2027",
+      "dek": "The airline is maintaining a reduced weekly frequency while the island's energy crisis continues.",
+      "author": "THE DESK",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "The figures involved — 2027 — underline the scale of what's being described, even as the full picture is still emerging.",
+        "Caribbean remains the other reference point worth watching, alongside the wider trend described above.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a37",
+      "slug": "adhesive-manufacturer-diy-boom",
+      "category": "economy",
+      "title": "The adhesive manufacturer riding the DIY and home-painting boom",
+      "dek": "Demand for touch-up and small-repair products has surged as more households tackle projects themselves.",
+      "author": "LUIS PAZ",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "People close to the matter say DIY is likely to stay a central point of reference as the situation continues to unfold.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a38",
+      "slug": "furniture-workshop-milan-design",
+      "category": "economy",
+      "title": "The regional furniture workshop now exhibiting at Milan Design Week",
+      "author": "MARTA PINEDO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "Those following the story point to Milan Design Week as a key part of the picture, one that could shape how things develop from here.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a39",
+      "slug": "burger-brand-beyond-the-restaurant",
+      "category": "economy",
+      "title": "The regional burger brand that wants to be much more than a restaurant chain",
+      "author": "LUIS PAZ",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a40",
+      "slug": "eco-footwear-brand-goes-global",
+      "category": "economy",
+      "title": "The comfortable, eco-conscious footwear brand quietly succeeding abroad",
+      "author": "NURIA DÍAZ",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a41",
+      "slug": "beauty-firm-stock-jumps-on-results",
+      "category": "economy",
+      "title": "A global beauty group's shares jump after breaking a run of revenue declines",
+      "dek": "The results also draw a line under speculation about a long-rumoured merger.",
+      "author": "GEMA ESCRIBANO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a42",
+      "slug": "bank-capital-raise-closes",
+      "category": "economy",
+      "title": "A major bank's capital raise closes with its valuation approaching a historic high",
+      "dek": "The lender's market capitalisation has grown ninefold in six years on the back of a string of acquisitions.",
+      "author": "GEMA ESCRIBANO / PABLO MARTÍN",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a43",
+      "slug": "public-debt-buybacks-ramp-up",
+      "category": "economy",
+      "title": "Treasury ramps up public-debt buybacks to contain rising interest rates",
+      "author": "DAVID PRIETO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a44",
+      "slug": "online-savings-account-rate-hike",
+      "category": "economy",
+      "title": "An online savings arm raises its account rate to 2.75% and adds a cash bonus",
+      "dek": "The bank is taking the lead in the competition for conservative savers' deposits.",
+      "author": "PMS",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "Put in context, 2.75% is the detail that's drawn the most attention from those following the story.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a45",
+      "slug": "robotics-ipo-surges-further",
+      "category": "economy",
+      "title": "Humanoid-robotics shares extend their rally, up more than 450% since debut",
+      "dek": "The stock has climbed well beyond the increases anticipated in early futures pricing.",
+      "author": "ELENA CASTRO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "People close to the matter say the 450% figure is likely to stay a central point of reference as the situation continues to unfold.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a48",
+      "slug": "swine-fever-losses-farmers",
+      "category": "economy",
+      "title": "Farmers' association says African swine fever losses near €1.2 billion",
+      "author": "ALFONSO CONESA | Barcelona",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "€1.2 billion is the number most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "African remains the other reference point worth watching, alongside the wider trend described above.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a50",
+      "slug": "fund-manager-environment-interview",
+      "category": "economy",
+      "title": "“Companies that ignore the environment are companies that eventually fail”",
+      "dek": "A leading fund manager on why sustainability has become a core part of long-term stock-picking.",
+      "author": "SOFÍA LAGO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a51",
+      "slug": "retirement-savings-top-funds",
+      "category": "economy",
+      "title": "How to save for retirement with the market's top-performing pension plans",
+      "dek": "Ten pension plans let savers invest exclusively in leading domestic blue-chip stocks.",
+      "author": "VERA CASTELLÓ",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a52",
+      "slug": "fund-manager-relocates-flagship-fund",
+      "category": "economy",
+      "title": "Asset manager relocates its flagship fund to Luxembourg",
+      "author": "MIGUEL MORENO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "People close to the matter say Luxembourg is likely to stay a central point of reference as the situation continues to unfold.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a53",
+      "slug": "fund-managers-stay-bullish-on-ai",
+      "category": "economy",
+      "title": "Fund managers keep bullish positioning “at extreme levels”",
+      "dek": "Professional investors are holding liquidity buffers low to avoid missing further AI-driven gains.",
+      "author": "MIGUEL MORENO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "People close to the matter say Professional is likely to stay a central point of reference as the situation continues to unfold.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a54",
+      "slug": "brand-value-founder-interview",
+      "category": "economy",
+      "tag": "Economy",
+      "title": "“A company is worth what its brand is worth, and what people will pay for it”",
+      "author": "MANUEL GUERRA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a56",
+      "slug": "founder-profile-boutique-agency",
+      "category": "economy",
+      "title": "The founder who turned a two-person studio into a design boutique",
+      "author": "CARLOS CAPA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a58",
+      "slug": "law-firm-global-revenue-growth",
+      "category": "economy",
+      "title": "International law firm's global revenue tops €800 million",
+      "author": "J. VELASCO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "€800 million is the number most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a59",
+      "slug": "compliance-hiring-boom",
+      "category": "economy",
+      "title": "Compliance hiring booms as new disclosure rules take effect",
+      "author": "MANUEL GUERRA",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "What happens next will depend heavily on how investors and analysts respond in the coming weeks.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a69",
+      "slug": "robotics-ipo-surges-further",
+      "category": "economy",
+      "title": "Humanoid-robotics shares extend their rally, up more than 450% since debut",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "450% is the number most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a71",
+      "slug": "holding-company-profit-drops-asset-transfer",
+      "category": "economy",
+      "title": "Family holding company's profit falls by two-thirds after an asset transfer abroad",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a72",
+      "slug": "bank-capital-raise-closes",
+      "category": "economy",
+      "title": "A major bank's capital raise closes with its valuation approaching a historic high",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a73",
+      "slug": "banks-settle-bond-mis-selling-case",
+      "category": "economy",
+      "title": "Major banks agree to a settlement over a bond mis-selling lawsuit",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "There's no single figure that captures the full picture yet, though investors and analysts broadly agree the direction of travel matters more than the pace.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a74",
+      "slug": "menswear-brand-latin-america-expansion",
+      "category": "economy",
+      "title": "A British-style menswear label is quietly conquering Latin America",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "Latin America is the name most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "For now, investors and analysts are left weighing the near-term impact against what it could mean further down the line."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a75",
+      "slug": "investor-buys-apartment-building-london",
+      "category": "economy",
+      "title": "Prominent investor buys a London apartment building for €175 million",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "€175 million is the number most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "London remains the other reference point worth watching, alongside the wider trend described above.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a76",
+      "slug": "blackout-shield-cost-regulation",
+      "category": "economy",
+      "title": "Regulators open a public consultation on who pays for grid resilience upgrades",
+      "body": [
+        "It's the latest sign of how quickly conditions have shifted in the economy, where investors and analysts have had to adjust to a fast-moving set of circumstances.",
+        "The exact scale of the impact is still being assessed, but investors and analysts are already factoring it into their near-term outlook.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a77",
+      "slug": "telecoms-group-exits-china-operations",
+      "category": "economy",
+      "title": "A major telecoms group will wind down its China operations by year-end",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when investors and analysts are already reassessing their expectations for the economy.",
+        "Those following the story point to China as a key part of the picture, one that could shape how things develop from here.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a78",
+      "slug": "extra-monthly-income-from-dividends",
+      "category": "economy",
+      "title": "How much capital would you need to generate €500 a month in dividends?",
+      "body": [
+        "The move comes as investors and analysts continue to watch the situation closely, with the broader implications still being weighed across the economy.",
+        "€500 is the number most cited so far, and it's likely to keep shaping how the story is read in the days ahead.",
+        "It's a reminder that even familiar trends in the economy can still produce genuine surprises."
+      ],
+      "image": "/images/pay-for-power.webp"
+    },
+    {
+      "id": "a80",
+      "slug": "regional-airports-cargo-traffic-record",
+      "category": "economy",
+      "title": "Regional airports post record cargo traffic as e-commerce imports surge",
+      "dek": "Freight volumes at secondary hubs have overtaken pre-pandemic levels for the first time.",
+      "author": "SILVIA ROMERO | Agencies",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in the economy in recent months, though rarely with this much attention from investors and analysts.",
+        "People close to the matter say cargo traffic is likely to stay a central point of reference as the situation continues to unfold.",
+        "The story is expected to develop further as more details emerge, with investors and analysts watching closely for the next signal."
+      ]
+    }
+  ]
+}

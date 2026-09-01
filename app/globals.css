@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Inter", Arial, Helvetica, sans-serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+
+  /* ---- Editorial palette -----------------------------------------
+     A print-broadsheet system built around one confident accent (a
+     wax-seal red used the way a masthead rule or a single red stamp
+     would be used on a printed page) rather than the warm-cream/gold
+     combination this project shipped with. Everything else is tuned
+     ink-on-paper: a cool near-black ink, a warm-white paper surface,
+     and a deeper paper "panel" tone for rails and insets. */
+  --color-paper: #fbfaf7;
+  --color-panel: #f1efe6;
+  --color-panel-line: #e7e2d4;
+  --color-ink: #14181c;
+  --color-ink-soft: #565d64;
+  --color-ink-faint: #8a8f94;
+  --color-rule: #dbd5c7;
+  --color-rule-strong: #14181c;
+  --color-accent: #b3121b;
+  --color-accent-ink: #7e0d14;
+  --color-accent-tint: #f4e3e0;
+
+  /* Header/footer keep their original navy identity — restored per
+     request, separate from the body-content editorial palette below.
+     Gold stays as the header's Subscribe-button/accent color, matching
+     the original masthead. */
+  --color-navy: #001c4c;
+  --color-navy-dark: #001636;
+  --color-cream: #eaede2;
+  --color-gold: #ffd700;
+  --color-hairline: var(--color-rule);
+  --color-page-bg: var(--color-paper);
+  --color-tag-gold: var(--color-accent-tint);
+  --color-divider: var(--color-rule);
+}
+
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-sans);
+  /* Keeps the footer pinned to the bottom of the viewport on short pages */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+#__next,
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-paper);
+}
+
+/* Visible keyboard focus everywhere, drawn in the accent rather than the
+   browser default blue, without suppressing it for mouse users. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---- Editorial type utilities --------------------------------------
+   Small, reusable primitives used across the masthead, section heads and
+   article body so the "print" details (rule weights, drop cap, dateline)
+   live in one place instead of being re-invented per component. */
+
+.rule-hairline {
+  height: 1px;
+  background: var(--color-rule);
+}
+
+.rule-heavy {
+  height: 3px;
+  background: var(--color-rule-strong);
+}
+
+/* Double rule: a heavier bar with a thin companion line beneath it,
+   the way a printed section flag sits above its column — used once per
+   homepage section, not stacked with any other divider treatment. */
+.rule-double {
+  border-top: 3px solid var(--color-rule-strong);
+  border-bottom: 1px solid var(--color-rule-strong);
+  height: 5px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Drop cap for the first paragraph of long-form article bodies. Applied
+   via a data attribute from the article page rather than a blanket
+   :first-of-type, so short deks/captions never accidentally get one. */
+[data-drop-cap] > p:first-child::first-letter {
+  float: left;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 0.82;
+  padding-right: 0.09em;
+  padding-top: 0.03em;
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

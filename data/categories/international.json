@@ -1,0 +1,26 @@
+{
+  "category": "international",
+  "title": "International",
+  "subNav": [
+    "Europe",
+    "United States",
+    "Latin America",
+    "Asia"
+  ],
+  "articles": [
+    {
+      "id": "a7",
+      "slug": "evergrande-founder-sentencing",
+      "category": "international",
+      "time": "07:54",
+      "tag": "International",
+      "title": "China hands down a life sentence to the founder of property giant Evergrande",
+      "body": [
+        "The move comes as diplomats and global markets continue to watch the situation closely, with the broader implications still being weighed across international affairs.",
+        "Much of the attention so far has centred on Evergrande, and that's likely to continue in the near term.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ],
+      "image": "/images/pay-for-power.webp"
+    }
+  ]
+}

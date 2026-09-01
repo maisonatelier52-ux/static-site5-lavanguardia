@@ -1,0 +1,79 @@
+{
+  "category": "society",
+  "title": "Society",
+  "subNav": [
+    "Health",
+    "Education",
+    "Science",
+    "Environment"
+  ],
+  "articles": [
+    {
+      "id": "a16",
+      "slug": "personalised-cancer-vaccine-trial-results",
+      "category": "society",
+      "title": "Two drugmakers report early success for a personalised vaccine against melanoma",
+      "dek": "The announcement did not include detailed survival-rate data. If confirmed, it would mark a significant milestone.",
+      "author": "DANIELA MIRAVET",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as citizens and community groups continue to watch the situation closely, with the broader implications still being weighed across society.",
+        "There's no single figure that captures the full picture yet, though citizens and community groups broadly agree the direction of travel matters more than the pace.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ]
+    },
+    {
+      "id": "a46",
+      "slug": "streaming-pastors-brazil",
+      "category": "society",
+      "title": "Streaming pastors: the evangelical creators building millions-strong followings online",
+      "dek": "A new generation of preachers is trading pulpits for ring lights, reaching congregations far beyond church walls.",
+      "author": "NAIARA GALLARDO | Sao Paulo",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "Similar developments have unfolded elsewhere in society in recent months, though rarely with this much attention from citizens and community groups.",
+        "What happens next will depend heavily on how citizens and community groups respond in the coming weeks.",
+        "The story is expected to develop further as more details emerge, with citizens and community groups watching closely for the next signal."
+      ]
+    },
+    {
+      "id": "a49",
+      "slug": "soil-degradation-global-cost",
+      "category": "society",
+      "tag": "Society",
+      "title": "The slow-motion crisis: soil degradation is costing the world billions a year",
+      "author": "ÁNGELES LARA | Ulaanbaatar",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The move comes as citizens and community groups continue to watch the situation closely, with the broader implications still being weighed across society.",
+        "The exact scale of the impact is still being assessed, but citizens and community groups are already factoring it into their near-term outlook.",
+        "For now, citizens and community groups are left weighing the near-term impact against what it could mean further down the line."
+      ]
+    },
+    {
+      "id": "a68",
+      "slug": "glacier-meltwater-wildfire-idea",
+      "category": "society",
+      "title": "Could stored glacier meltwater help fight the next wildfire season?",
+      "author": "MIGUEL BARREIRO",
+      "image": "/images/pay-for-power.webp",
+      "body": [
+        "The timing has drawn particular notice, coming at a moment when citizens and community groups are already reassessing their expectations for society.",
+        "There's no single figure that captures the full picture yet, though citizens and community groups broadly agree the direction of travel matters more than the pace.",
+        "It's a reminder that even familiar trends in society can still produce genuine surprises."
+      ]
+    },
+    {
+      "id": "a70",
+      "slug": "obesity-pill-low-dose-trial",
+      "category": "society",
+      "title": "Drugmaker begins testing a low-dose obesity pill in a new trial",
+      "body": [
+        "Similar developments have unfolded elsewhere in society in recent months, though rarely with this much attention from citizens and community groups.",
+        "There's no single figure that captures the full picture yet, though citizens and community groups broadly agree the direction of travel matters more than the pace.",
+        "Whether this marks a lasting shift or a temporary adjustment is likely to become clearer over the coming weeks."
+      ],
+      "image": "/images/pay-for-power.webp"
+    }
+  ]
+}

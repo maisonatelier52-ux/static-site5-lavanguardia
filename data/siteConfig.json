@@ -1,0 +1,31 @@
+{
+  "siteName": "La Vanguardia",
+  "subscribeLabel": "Subscribe",
+  "mainNav": [
+    { "label": "At the minute", "href": "/at-the-minute" },
+    { "label": "International", "href": "/international" },
+    { "label": "Policy", "href": "/policy" },
+    { "label": "Opinion", "href": "/opinion" },
+    { "label": "Society", "href": "/society" },
+    { "label": "Sports", "href": "/sports" },
+    { "label": "Economy", "href": "/economy" },
+    { "label": "Cities", "href": "/cities" },
+    { "label": "Pop", "href": "/pop" },
+    { "label": "Culture", "href": "/culture" },
+    { "label": "Events", "href": "/events" }
+  ],
+  "footer": {
+    "copyright": "© La Vanguardia Ediciones, SLU All rights reserved.",
+    "legalLinks": [
+      { "label": "Who we are", "href": "/who-we-are" },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Legal notice", "href": "/legal-notice" },
+      { "label": "Cookies policy", "href": "/cookies-policy" },
+      { "label": "Other websites of the group", "href": "/other-websites-of-the-group" },
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Ethics channel", "href": "/ethics-channel" },
+      { "label": "Cookie settings", "href": "/cookie-settings" },
+      { "label": "Sitemap", "href": "/sitemap" }
+    ]
+  }
+}
