@@ -1,0 +1,116 @@
+{
+  "category": "us",
+  "title": "U.S.",
+  "subNav": [
+    "Politics",
+    "Elections",
+    "States",
+    "Courts"
+  ],
+  "articles": [
+    {
+      "id": "us1",
+      "slug": "congress-passes-stopgap-funding-bill-ahead-of-midterms",
+      "category": "us",
+      "title": "Congress passes stopgap funding bill, averting shutdown ahead of midterm campaign season",
+      "dek": "The House voted 370-48 to extend federal funding into early December, sending the measure to the president's desk days before lawmakers left Washington to campaign.",
+      "tag": "Congress",
+      "author": "JAMES CARTER | Washington",
+      "date": "2026-09-01",
+      "image": "/images/congress-passes-stopgap-funding-bill-ahead-of-midterms.webp",
+      "body": [
+        "The House of Representatives voted 370-48 on Tuesday to pass a short-term spending bill that keeps the federal government funded into early December, clearing the measure just before the fiscal year's October 1 deadline and removing, for now, the threat of a shutdown as lawmakers head home to campaign for the midterms.",
+        "The Senate had already approved the continuing resolution by an overwhelming bipartisan margin, so the bill moved directly to the president's desk for a signature. The measure extends government funding at existing levels rather than settling the dozen annual appropriations bills that remain unfinished, pushing that harder fight to a lame-duck session after the November 3 election.",
+        "Lawmakers in both parties said they had little appetite for repeating the kind of extended funding lapse that disrupted federal operations for weeks earlier in the fiscal year. With control of both the House and Senate on the ballot this fall, neither party wanted voters watching a government shutdown unfold during the final stretch of the campaign.",
+        "The reprieve is temporary. Congress will still need to pass full-year funding bills, or another stopgap, before the new December deadline arrives — and that debate is expected to collide with unresolved fights over spending levels, immigration enforcement funding, and the cost of the administration's expanded military commitments in the Middle East.",
+        "For now, federal agencies, contractors, and the roughly two million civilian employees of the federal workforce can plan around a stable funding picture through the election, even as the next round of budget negotiations waits just past it."
+      ]
+    },
+    {
+      "id": "us2",
+      "slug": "new-hampshire-senate-primary-pappas-sununu",
+      "category": "us",
+      "title": "Pappas and Sununu win New Hampshire Senate primaries, setting up marquee November battle",
+      "dek": "The state's first open Senate race since 2010 is now set, with Democratic Rep. Chris Pappas facing former Republican Sen. John Sununu for the seat Jeanne Shaheen is vacating.",
+      "tag": "Elections",
+      "author": "JAMES CARTER | Washington",
+      "date": "2026-09-08",
+      "image": "/images/new-hampshire-senate-primary-pappas-sununu.webp",
+      "body": [
+        "New Hampshire voters set up one of the fall's most closely watched Senate contests on Tuesday, as Democratic Rep. Chris Pappas and former Republican Sen. John Sununu won their respective primaries for the seat longtime Sen. Jeanne Shaheen is vacating after three terms.",
+        "Pappas, who has represented New Hampshire's 1st Congressional District since 2019, defeated Karishma Manzur, a scientist and progressive activist, taking roughly 65 percent of the vote. Sununu, who served one term in the Senate from 2003 to 2009, turned back a challenge from Scott Brown, a former Massachusetts senator who had relocated to New Hampshire to run, winning with about 68.5 percent.",
+        "It is the first time since 2010 that a Senate seat in the state has been open, and both national parties have marked it as a top pickup opportunity. Republicans have not won a New Hampshire Senate race since that year, but Sununu's name recognition — bolstered by a brother who served as governor — gives the party its strongest recruit in more than a decade.",
+        "Results were projected by the Associated Press shortly after 8 p.m. Tuesday, and both campaigns quickly turned their attention to the general election. Independent voters, who make up a large share of the New Hampshire electorate, are expected to decide a race both sides describe as a toss-up heading into November."
+      ]
+    },
+    {
+      "id": "us3",
+      "slug": "august-jobs-report-162000-added-unemployment-4-1-percent",
+      "category": "us",
+      "title": "U.S. employers add 162,000 jobs in August, unemployment holds steady at 4.1%",
+      "dek": "Hiring rebounded well past forecasts after a weak early summer, with the Labor Department also revising June and July payrolls higher.",
+      "tag": "Economy",
+      "author": "JAMES CARTER | Washington",
+      "date": "2026-09-04",
+      "image": "/images/august-jobs-report-162000-added-unemployment-4-1-percent.webp",
+      "body": [
+        "The U.S. economy added 162,000 jobs in August, the Bureau of Labor Statistics reported Friday, far outpacing the 53,000 gain economists had forecast and marking the strongest month of hiring since March. The unemployment rate held steady at 4.1 percent, with the number of unemployed Americans little changed at 7.0 million.",
+        "The report also carried encouraging revisions to prior months: July's initially reported loss of 23,000 jobs was revised up to a gain of 21,000, and June was revised up to a gain of 31,000. Taken together, the two months added 65,000 more jobs than first reported, easing worries that hiring had stalled going into the fall.",
+        "Job growth was broad-based for the first time in months, led by food services and drinking establishments along with local government education jobs. The information sector was the clear exception, shedding 23,000 positions, with losses concentrated in computing infrastructure, data processing and web hosting, publishing, and broadcasting — an area several employers have tied to increased use of artificial intelligence tools.",
+        "Average hourly earnings rose 10 cents, or 0.3 percent, to $37.75, putting wage growth at 3.1 percent over the past year. The labor force participation rate ticked up to 61.6 percent, though it remains half a percentage point below where it stood in January.",
+        "The strong report complicates the picture for the Federal Reserve, which meets later this month to decide whether to raise interest rates. A resilient labor market gives policymakers more room to focus on inflation without worrying that a rate increase would immediately jeopardize hiring."
+      ]
+    },
+    {
+      "id": "us4",
+      "slug": "nasa-roman-space-telescope-launch",
+      "category": "us",
+      "title": "NASA's Roman Space Telescope launches, opening a new window on dark energy and distant worlds",
+      "dek": "The Nancy Grace Roman Space Telescope lifted off from Kennedy Space Center, carrying a wide-field infrared instrument designed to survey the cosmos at a scale no prior mission has matched.",
+      "tag": "Science",
+      "author": "JAMES CARTER | Washington",
+      "date": "2026-08-30",
+      "image": "/images/nasa-roman-space-telescope-launch.webp",
+      "body": [
+        "NASA's Nancy Grace Roman Space Telescope launched Sunday from the agency's Kennedy Space Center in Florida, beginning a mission designed to survey vastly wider swaths of the sky than the Hubble or James Webb space telescopes while still capturing sharp, detailed images.",
+        "Roman pairs a large field of view with crisp infrared vision, a combination NASA says will let astronomers scan deep, expansive regions of the cosmos in a single observation. The flagship mission's core goals include probing the nature of dark matter and dark energy, the mysterious forces that appear to govern how galaxies hold together and how the universe's expansion is accelerating.",
+        "Because each of Roman's surveys will sweep such a large volume of space, scientists expect the telescope to generate opportunities well beyond its primary goals — from cataloguing objects in the outer solar system to spotting exploding stars and mapping the growth of black holes and galaxies by the billions. NASA has said Roman's data will be made public as soon as it is processed, allowing many research teams to mine the same observations simultaneously.",
+        "The telescope is named for Nancy Grace Roman, NASA's first chief astronomer, who is widely credited as a driving force behind the Hubble Space Telescope. Its launch caps years of development and adds a third major flagship observatory, alongside Hubble and Webb, to NASA's active fleet."
+      ]
+    },
+    {
+      "id": "us5",
+      "slug": "hottest-august-on-record-us-heat",
+      "category": "us",
+      "title": "August was the hottest ever recorded globally, as U.S. summer heat also shattered records",
+      "dek": "Scientists say last month extended a run of extreme heat, with several U.S. regions posting their warmest summer temperatures on record.",
+      "tag": "Climate",
+      "author": "JAMES CARTER | Washington",
+      "date": "2026-09-10",
+      "image": "/images/hottest-august-on-record-us-heat.webp",
+      "body": [
+        "Scientists tracking global temperature data say August was the hottest August ever recorded worldwide, extending a pattern of record or near-record heat that has marked much of the year. In the United States, summer temperatures also shattered regional records, with numerous cities logging their warmest June-through-August stretch since consistent record-keeping began.",
+        "Climate scientists attribute the extreme heat to a combination of long-term warming trends driven by greenhouse gas emissions and shorter-term ocean and atmospheric patterns that amplified temperatures in specific regions. Researchers caution that any single month's ranking depends on the dataset used, but multiple independent monitoring agencies converged on the same broad conclusion for August.",
+        "The persistent heat has carried practical consequences beyond the headline statistics: extended strain on power grids during peak cooling demand, longer and more intense wildfire seasons in parts of the West, and disruptions to agriculture in regions where prolonged heat has stressed crops and livestock.",
+        "Public health officials have renewed warnings about heat-related illness, particularly for older adults, outdoor workers, and people without reliable access to air conditioning, urging communities to activate cooling centers during the most extreme stretches. Meteorologists say the coming months will show whether the heat trend eases with the change of seasons or continues into the fall."
+      ]
+    },
+    {
+      "id": "us6",
+      "slug": "atlantic-hurricane-season-gulf-coast-tropical-storms",
+      "category": "us",
+      "title": "A quieter Atlantic hurricane season still brings repeat tropical storms to the Gulf Coast",
+      "dek": "NOAA's updated outlook calls for a below-average season overall, but Louisiana and Texas have already absorbed multiple tropical storm landfalls since June.",
+      "tag": "Weather",
+      "author": "JAMES CARTER | Washington",
+      "date": "2026-08-14",
+      "image": "/images/atlantic-hurricane-season-gulf-coast-tropical-storms.webp",
+      "body": [
+        "Federal forecasters are sticking with a below-average outlook for the 2026 Atlantic hurricane season, even as the Gulf Coast has already weathered a string of tropical storms during what is typically the season's build-up. The National Oceanic and Atmospheric Administration's mid-season update, issued in early August, cited a strengthening El Niño pattern and higher-than-usual wind shear across the tropical Atlantic as reasons storms have struggled to organize into major hurricanes so far this year.",
+        "That has not spared the Gulf Coast from repeated brushes with tropical weather. Tropical Storm Arthur, the season's first named storm, formed in the Gulf in mid-June and dropped record rainfall on parts of Louisiana while spawning tornadoes along the coast. Tropical Storm Bertha followed in late July, making landfall in St. Bernard Parish, Louisiana, and a third system, Tropical Storm Edouard, came ashore near the Texas-Louisiana border in September.",
+        "None of the systems reached hurricane strength, and emergency officials reported no major structural damage from any of the three storms, though each brought heavy rainfall and localized flooding to communities along the coast. Forecasters note that a quiet overall season can still produce dangerous individual storms, and coastal residents are urged to stay prepared through the season's traditional peak, which runs from late August through September.",
+        "With the Atlantic hurricane season continuing through the end of November, meteorologists say the current lull is no guarantee the rest of the season will stay calm, particularly as sea surface temperatures in the Gulf remain warm enough to fuel rapid intensification if a storm does organize."
+      ]
+    }
+  ]
+}

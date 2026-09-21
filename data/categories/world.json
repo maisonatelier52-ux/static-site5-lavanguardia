@@ -1,0 +1,114 @@
+{
+  "category": "world",
+  "title": "World",
+  "subNav": [
+    "Europe",
+    "Asia",
+    "Middle East",
+    "Americas"
+  ],
+  "articles": [
+    {
+      "id": "wld1",
+      "slug": "guatemala-fuego-volcano-eruption-evacuations",
+      "category": "world",
+      "title": "Guatemala's Fuego volcano erupts, forcing evacuation of nearly 1,700 people",
+      "dek": "Central America's most active volcano entered a critical explosive phase, sending ash more than three miles into the sky, though officials reported no deaths or major damage.",
+      "tag": "Disaster",
+      "author": "ELENA PETROVA | London",
+      "date": "2026-08-05",
+      "image": "/images/guatemala-fuego-volcano-eruption-evacuations.webp",
+      "body": [
+        "Guatemala issued its second-highest emergency alert and evacuated at least 18 communities near the Fuego volcano this week after Central America's most active volcano entered what officials called a critical explosive phase, spewing lava, ash and pyroclastic flows down its slopes.",
+        "The country's disaster coordination agency, Conred, said nearly 1,700 people were moved to shelters as the eruption intensified through Tuesday and Wednesday. Ash columns reached roughly 19,000 feet above sea level and spread as far as 75 miles from the crater, according to Guatemala's Institute of Seismology, Volcanology, Meteorology and Hydrology, which warned the volcano was moving toward a more explosive phase.",
+        "The volcano's most intense eruptive episode lasted roughly 50 hours before activity began tapering off, with monitoring agencies reporting no deaths or structural damage. Officials said the more immediate danger had shifted to lahars — fast-moving mudflows that form when rain mixes with loose volcanic ash and debris on the mountain's slopes — and urged residents to stay clear of ravines and drainage channels even as some began returning home.",
+        "Fuego, whose name means \"fire\" in Spanish, sits on the Pacific \"Ring of Fire\" and has triggered mass evacuations several times in recent years. The eruption unfolded in the shadow of the volcano's catastrophic 2018 eruption, which killed more than 200 people and buried an entire village in the deadliest disaster in Guatemala's recent history."
+      ]
+    },
+    {
+      "id": "wld2",
+      "slug": "james-webb-telescope-black-hole-star-discovery",
+      "category": "world",
+      "title": "Astronomers identify a new kind of cosmic object: a 'black hole star'",
+      "dek": "A James Webb Space Telescope survey uncovered an object the size of the solar system, powered by a black hole rather than nuclear fusion, that may explain a longstanding cosmic mystery.",
+      "tag": "Science",
+      "author": "ELENA PETROVA | London",
+      "date": "2026-08-13",
+      "image": "/images/james-webb-telescope-black-hole-star-discovery.webp",
+      "body": [
+        "An international team of astronomers has identified what they describe as an entirely new class of cosmic object: a \"black hole star,\" formed when a young, massive black hole becomes wrapped in such a dense envelope of hydrogen gas that the whole system takes on the size and some of the light signature of an enormous star. The findings were published in the journal Nature on August 12.",
+        "The object, designated MoM-BH*-1, was discovered using NASA's James Webb Space Telescope as part of a survey called \"Mirage or Miracle,\" led by Rohan Naidu, now at the University of Hawaiʻi's Institute for Astronomy. Its light began traveling toward Earth when the universe was only about 660 million years old, placing it among the earliest objects astronomers have studied in detail. Despite looking, from a distance, like a star roughly the size of the solar system, the object radiates energy on a scale about 100 billion times greater than any star could produce through nuclear fusion alone — a signature the researchers say points instead to a feeding black hole at its core.",
+        "Since Webb began science operations in 2022, its deep-field images have repeatedly turned up small, extremely red sources that scientists nicknamed \"little red dots,\" whose brightness and abundance in the early universe defied standard explanations for both young galaxies and ordinary black holes. Naidu's team argues that black hole stars may account for many of these little red dots, a hypothesis a separate 2026 survey has already begun testing by identifying 241 additional candidate sources in Webb data.",
+        "\"They may govern when stars are able to form and when they cease forming, setting the course for everything that follows from star formation: the birth of planets, the rise of life, the emergence of species that may one day piece together this entire history,\" Naidu said of the discovery. Researchers caution that the black-hole-star model remains the team's preferred explanation among several competing theories still under active investigation."
+      ]
+    },
+    {
+      "id": "wld3",
+      "slug": "japan-pm-takaichi-cabinet-reshuffle",
+      "category": "world",
+      "title": "Japan's PM Takaichi opts for continuity in first Cabinet reshuffle",
+      "dek": "Sanae Takaichi, Japan's first woman prime minister, is set to keep key ministers in place as she enters the second year of her premiership, according to local media reports.",
+      "tag": "Asia-Pacific",
+      "author": "ELENA PETROVA | London",
+      "date": "2026-09-07",
+      "image": "/images/japan-pm-takaichi-cabinet-reshuffle.webp",
+      "body": [
+        "Japanese Prime Minister Sanae Takaichi is preparing to prioritize continuity in her first Cabinet reshuffle since taking office, with several key ministers expected to retain their posts, according to reports from the Asahi, Mainichi and Nikkei newspapers. Takaichi, who became Japan's first woman prime minister when she took office in October 2025, is planning the shake-up for mid-to-late September.",
+        "Finance Minister Satsuki Katayama, Defense Minister Shinjiro Koizumi and Foreign Minister Toshimitsu Motegi are all likely to keep their positions, the reports said, as Takaichi looks to project stability heading into the second year of her premiership. The reshuffle would be the first change to her Cabinet and the ruling Liberal Democratic Party's executive lineup since she took power, and comes as she works to build support ahead of the LDP's 2027 party leadership election.",
+        "The timing coincides with several other domestic priorities, including a planned tax reform package featuring a consumption tax cut on food, expected to be adopted in mid-September, and the Okinawa gubernatorial election, a race the ruling coalition views as politically significant. Takaichi's government has also continued to navigate a delicate balance between maintaining Japan's alliance with the United States and managing regional tensions in East Asia.",
+        "Political analysts in Tokyo said the emphasis on continuity reflects Takaichi's preference for steady governance over a dramatic reset, particularly given that she is still relatively early in her tenure and has prioritized consolidating support within her own party."
+      ]
+    },
+    {
+      "id": "wld4",
+      "slug": "djibouti-signs-nasa-artemis-accords",
+      "category": "world",
+      "title": "Djibouti becomes 72nd nation to sign NASA's Artemis Accords",
+      "dek": "The East African nation joined the U.S.-led framework for peaceful space exploration during a ceremony at NASA headquarters in Washington.",
+      "tag": "Diplomacy",
+      "author": "ELENA PETROVA | London",
+      "date": "2026-09-14",
+      "image": "/images/djibouti-signs-nasa-artemis-accords.webp",
+      "body": [
+        "The Republic of Djibouti signed the Artemis Accords on Monday during a ceremony at NASA headquarters in Washington, becoming the 72nd country to join the U.S.-led framework governing norms of behavior in space exploration. NASA Deputy Administrator Matt Anderson hosted the country's ambassador to the United States for the signing.",
+        "The Artemis Accords, first introduced in 2020, establish a set of principles intended to guide civil space exploration among signatory nations, including commitments around transparency, interoperability of space systems, the safe disposal of orbital debris, and the peaceful use of space resources. The accords are not a binding treaty but a set of political commitments that participating countries agree to uphold as more nations and private companies expand their activity in orbit and beyond.",
+        "Djibouti's signing extends the list of signatories across all inhabited continents, reflecting a broader push by NASA and the U.S. State Department to build a wide international coalition around a shared set of space governance norms as competition over lunar resources and orbital infrastructure intensifies among spacefaring nations. Djibouti, strategically located along the Bab-el-Mandeb strait connecting the Red Sea to the Gulf of Aden, has in recent years sought a higher diplomatic profile in international forums beyond its traditional focus on regional security and shipping.",
+        "NASA officials said the growing list of signatories underscores the agency's effort to align global partners around common rules ahead of upcoming lunar missions under its Artemis program, which aims to return astronauts to the moon's surface later in the decade."
+      ]
+    },
+    {
+      "id": "wld5",
+      "slug": "amazon-deforestation-lowest-level-since-2013",
+      "category": "world",
+      "title": "Amazon deforestation falls to its lowest level in more than a decade, Brazilian data show",
+      "dek": "Satellite monitoring recorded a 37% drop in deforestation alerts over the past year, extending a decline that has continued since President Lula returned to office in 2023.",
+      "tag": "Environment",
+      "author": "ELENA PETROVA | London",
+      "date": "2026-08-09",
+      "image": "/images/amazon-deforestation-lowest-level-since-2013.webp",
+      "body": [
+        "Deforestation alerts in the Brazilian Amazon fell to their lowest level since the current monitoring series began in 2013, according to new satellite data from Brazil's National Institute for Space Research, known as INPE. The agency's DETER alert system recorded 2,874 square kilometers of deforestation between August 2025 and July 2026, a drop of nearly 37% from the previous 12-month period and well below the average of the preceding decade.",
+        "The decline extends a downward trend that began after President Luiz Inácio Lula da Silva returned to office in January 2023, following a sharp rise in deforestation during the previous administration. Brazilian officials have credited increased enforcement operations, strengthened satellite monitoring, renewed efforts to protect Indigenous territories, and targeted agreements with municipalities where forest clearing has historically been concentrated.",
+        "Scientists caution that the DETER alert figures, while a useful early indicator, are distinct from Brazil's official annual deforestation benchmark, known as PRODES, which uses higher-resolution imagery and is typically published later in the year. Researchers also note that clear-cutting is only one measure of forest damage — degradation from selective logging, drought and fire can weaken standing forest without registering as outright deforestation, and wildfire activity in parts of the Amazon has risen even as clearing has fallen.",
+        "Brazil has pledged to eliminate illegal deforestation entirely by 2030, a target officials point to as realistic given the current trajectory, even as environmental groups continue to raise concerns over other pressures on the rainforest, including a Supreme Court-approved railway project and continued interest in oil exploration near the mouth of the Amazon River."
+      ]
+    },
+    {
+      "id": "wld6",
+      "slug": "eurozone-inflation-3-3-percent-ecb-holds-rates",
+      "category": "world",
+      "title": "Eurozone inflation jumps to 3.3% even as the ECB holds interest rates steady",
+      "dek": "A surge in energy costs pushed euro-area inflation to its highest level in months, but the European Central Bank left borrowing costs unchanged at their lowest level in more than two years.",
+      "tag": "Europe",
+      "author": "ELENA PETROVA | London",
+      "date": "2026-09-12",
+      "image": "/images/eurozone-inflation-3-3-percent-ecb-holds-rates.webp",
+      "body": [
+        "Annual inflation across the euro area is estimated to have reached 3.3% in August, up from 2.9% in July, according to a flash estimate published by Eurostat, the European Union's statistics agency. It marks one of the sharpest monthly increases in the bloc's inflation rate in months, driven overwhelmingly by energy costs, which rose an estimated 14.3% year-on-year, up from 10.3% the month before.",
+        "Despite the jump, the European Central Bank kept its key interest rates unchanged at its policy meeting on September 11, leaving the deposit rate at 2.00%, where it has sat since the bank's last cut in June 2025. The ECB has now cut its benchmark rate eight times since June 2024, bringing it down from a peak of 4.00%, and policymakers signaled they intend to take a data-dependent, meeting-by-meeting approach rather than committing to a fixed path.",
+        "The inflation increase varied sharply across the currency bloc. Sweden recorded the lowest annual rate at 0.3%, while Romania posted the highest at 8.2%, followed by Lithuania, Cyprus and Bulgaria. Fifteen member states saw inflation fall compared with June even as the currency union's overall rate climbed, reflecting how unevenly the energy-driven price pressures have spread across the bloc's economies.",
+        "ECB officials have pointed to global energy market volatility, tied in part to ongoing tensions in the Middle East, as the primary driver behind the latest inflation reading, rather than a resurgence of the broader price pressures that dominated the bloc's economy in 2022 and 2023. Economists said the central bank's decision to hold rates steady reflected confidence that the energy-driven spike would prove temporary, though further increases in oil and gas prices could test that assumption in the months ahead."
+      ]
+    }
+  ]
+}

@@ -7,12 +7,13 @@ import siteConfig from "@/data/siteConfig.json";
  * author page), location, a row of share icons, and an
  * "Add {site} as a preferred source" pill.
  *
- * No publish date/time is shown: the site's article data has no publish
- * timestamp field (only the homepage's "Latest news" strip carries a
- * `time`, which is homepage-specific), and inventing one per-article
- * would be exactly the kind of dummy data this feature is meant to avoid.
+ * Publish date comes from the article's own `date` field in
+ * data/categories/<category>.json and is shown alongside location in the
+ * same small mono meta line, matching the dateline treatment used in the
+ * header and every other small system label on the site.
  */
-export default function ArticleByline({ authorName, authorHref, location }) {
+export default function ArticleByline({ authorName, authorHref, location, date }) {
+  const metaLine = [location, date].filter(Boolean).join(" · ");
   return (
     <div className="flex flex-wrap items-center justify-between gap-4 pb-5">
       <div className="flex items-center gap-3">
@@ -27,19 +28,21 @@ export default function ArticleByline({ authorName, authorHref, location }) {
                 authorName
               )}
             </p>
-            {location && <p className="text-ink-faint">{location}</p>}
+            {metaLine && (
+              <p className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink-faint">{metaLine}</p>
+            )}
           </div>
         )}
       </div>
 
       <div className="flex flex-wrap items-center gap-4">
         <div className="flex items-center gap-3 text-ink-soft">
-          <WhatsAppIcon className="h-[17px] w-[17px] transition-colors hover:text-accent" />
-          <FacebookIcon className="h-[17px] w-[17px] transition-colors hover:text-accent" />
-          <XIcon className="h-[15px] w-[15px] transition-colors hover:text-accent" />
-          <ShareIcon className="h-[17px] w-[17px] transition-colors hover:text-accent" />
+          <WhatsAppIcon className="h-[17px] w-[17px] transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
+          <FacebookIcon className="h-[17px] w-[17px] transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
+          <XIcon className="h-[15px] w-[15px] transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
+          <ShareIcon className="h-[17px] w-[17px] transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
         </div>
-        <span className="inline-flex items-center gap-2 border border-rule px-3.5 py-1.5 text-xs font-semibold text-ink-soft">
+        <span className="inline-flex items-center gap-2 border border-accent/25 bg-accent/5 px-3.5 py-1.5 font-mono text-[10.5px] uppercase tracking-[0.08em] text-accent/85">
           <GoogleGlyph className="h-3.5 w-3.5" />
           Add {siteConfig.siteName} as a preferred source
         </span>

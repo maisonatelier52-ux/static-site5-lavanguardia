@@ -11,8 +11,9 @@ export default function MultiTopicRow({ topics }) {
   return (
     <div className="grid grid-cols-1 gap-px sm:grid-cols-2 lg:grid-cols-4">
       {topics.map((topic, idx) => (
-        <div key={topic.title} className={`px-6 py-6 ${idx % 2 === 1 ? "bg-panel" : ""}`}>
-          <h3 className="font-serif text-[17px] font-bold italic text-ink">{topic.title}</h3>
+        <div key={topic.title} className={`px-6 py-6 ${idx % 2 === 1 ? "bg-panel/60" : ""}`}>
+          <div className="rule-glow w-8" aria-hidden="true" />
+          <h3 className="mt-3 font-serif text-[17px] font-bold italic text-ink">{topic.title}</h3>
           <div className="mt-4 divide-y divide-rule [&>*]:py-3.5 first:[&>*]:pt-0">
             {topic.items.map((article) => (
               <ArticleCard key={article.id} article={article} variant="text" size="sm" showDek={false} />

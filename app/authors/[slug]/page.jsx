@@ -6,7 +6,37 @@ import { getAuthorBySlug, getAuthorBio } from "@/lib/getAuthors";
 // Author data is derived entirely from data/categories/*.json (see
 // lib/getAuthors.js) — every author here already exists as a real
 // `author` byline on at least one article somewhere on the site. Nothing
-// is hand-added or invented.
+// is hand-added or invented. Optional hand-written bio/photo overrides
+// come from data/authorProfiles.json, keyed by the same slug.
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const author = getAuthorBySlug(slug);
+  if (!author) return {};
+
+  const bio = getAuthorBio(author);
+  const url = `/authors/${slug}`;
+
+  return {
+    title: author.name,
+    description: bio,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${author.name} | La Vanguardia`,
+      description: bio,
+      url,
+      type: "profile",
+      images: author.image ? [{ url: author.image }] : undefined,
+    },
+    twitter: {
+      card: "summary",
+      title: `${author.name} | La Vanguardia`,
+      description: bio,
+      images: author.image ? [author.image] : undefined,
+    },
+  };
+}
+
 export default async function AuthorPage({ params }) {
   const { slug } = await params;
   const author = getAuthorBySlug(slug);
@@ -17,7 +47,7 @@ export default async function AuthorPage({ params }) {
   return (
     <div className="bg-page-bg">
       <div className="mx-auto max-w-[1440px] px-6 py-6 md:py-8">
-        <AuthorBanner name={author.name} bio={bio} />
+        <AuthorBanner name={author.name} bio={bio} image={author.image} />
 
         <div className="mt-9">
           {author.articles.length > 0 ? (

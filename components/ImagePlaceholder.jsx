@@ -19,11 +19,11 @@ export default function ImagePlaceholder({ src, alt = "", className = "", label,
   if (isAd) {
     return (
       <div
-        className={`flex items-center justify-center border border-dashed border-rule bg-panel ${rounded} ${className}`}
+        className={`flex items-center justify-center border border-dashed border-accent/25 bg-panel/40 ${rounded} ${className}`}
       >
         <div className="flex flex-col items-center gap-1.5 px-3 text-center">
-          <PictureIcon className="text-ink-faint" />
-          <span className="text-[11px] font-medium text-ink-faint">
+          <PictureIcon className="text-accent/50" />
+          <span className="font-mono text-[10px] font-medium uppercase tracking-[0.08em] text-accent/60">
             {label || "Ad space"}
           </span>
         </div>
@@ -32,7 +32,7 @@ export default function ImagePlaceholder({ src, alt = "", className = "", label,
   }
 
   return (
-    <div className={`relative overflow-hidden bg-panel ${rounded} ${className}`}>
+    <div className={`relative overflow-hidden bg-panel ring-1 ring-inset ring-white/[0.06] ${rounded} ${className}`}>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="flex flex-col items-center gap-1.5 px-3 text-center">
           <PictureIcon className="text-ink-faint" />

@@ -13,11 +13,14 @@ export default function ArticleAuthorCard({ authorName, authorHref, categoryTitl
   if (!authorName) return null;
 
   return (
-    <div className="mt-12 border-t-[3px] border-ink pt-6">
-      <p className="text-[11px] font-bold uppercase tracking-[0.05em] text-ink-faint">About the firm</p>
+    <div className="mt-12">
+      <div className="rule-glow w-full" aria-hidden="true" />
+      <p className="mt-6 font-mono text-[10.5px] font-bold uppercase tracking-[0.14em] text-ink-faint">About the firm</p>
 
       <div className="mt-5 flex items-center gap-4">
-        <ImagePlaceholder label="Photo" className="h-14 w-14 shrink-0" rounded="rounded-full" />
+        <div className="shrink-0 rounded-full shadow-[var(--shadow-accent-sm)] ring-2 ring-accent/25">
+          <ImagePlaceholder label="Photo" className="h-14 w-14" rounded="rounded-full" />
+        </div>
         <div>
           <p className="flex items-center gap-2 font-serif text-lg font-bold text-ink">
             {authorHref ? (
@@ -32,7 +35,7 @@ export default function ArticleAuthorCard({ authorName, authorHref, categoryTitl
           {authorHref && (
             <Link
               href={authorHref}
-              className="mt-2 inline-flex items-center gap-1.5 border border-ink px-3 py-1.5 text-xs font-semibold text-ink transition-colors hover:border-accent hover:text-accent"
+              className="mt-2 inline-flex items-center gap-1.5 border border-white/15 px-3 py-1.5 font-mono text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink transition-all hover:border-accent hover:text-accent hover:shadow-[var(--shadow-accent-sm)]"
             >
               View biography
               <ChevronDown className="h-3 w-3" />
@@ -47,14 +50,14 @@ export default function ArticleAuthorCard({ authorName, authorHref, categoryTitl
           Receive our subscriber-only {categoryTitle ? `${categoryTitle.toLowerCase()} ` : ""}news newsletter.
         </p>
         <div className="flex items-center gap-3 text-ink-soft">
-          <FacebookIcon className="h-4 w-4 transition-colors hover:text-accent" />
-          <InstagramIcon className="h-4 w-4 transition-colors hover:text-accent" />
-          <XIcon className="h-3.5 w-3.5 transition-colors hover:text-accent" />
+          <FacebookIcon className="h-4 w-4 transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
+          <InstagramIcon className="h-4 w-4 transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
+          <XIcon className="h-3.5 w-3.5 transition-colors hover:text-accent hover:drop-shadow-[0_0_6px_var(--color-accent)]" />
         </div>
       </div>
 
       <div className="mt-6 flex items-center justify-between border-t border-rule pt-5">
-        <p className="text-[11px] font-bold uppercase tracking-[0.05em] text-ink-faint">Comments</p>
+        <p className="font-mono text-[10.5px] font-bold uppercase tracking-[0.14em] text-ink-faint">Comments</p>
       </div>
     </div>
   );

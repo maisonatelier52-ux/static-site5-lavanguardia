@@ -11,25 +11,47 @@ import { getHomeContent } from "@/lib/getHomeContent";
 // (both this page and the homepage read from it; see lib/getHomeContent.js
 // for how the homepage's layout resolves against these same files).
 const categoryModules = {
-  "at-the-minute": () => import("@/data/categories/at-the-minute.json"),
-  international: () => import("@/data/categories/international.json"),
-  policy: () => import("@/data/categories/policy.json"),
-  opinion: () => import("@/data/categories/opinion.json"),
-  society: () => import("@/data/categories/society.json"),
-  sports: () => import("@/data/categories/sports.json"),
-  economy: () => import("@/data/categories/economy.json"),
-  cities: () => import("@/data/categories/cities.json"),
-  pop: () => import("@/data/categories/pop.json"),
-  culture: () => import("@/data/categories/culture.json"),
-  events: () => import("@/data/categories/events.json"),
+  us: () => import("@/data/categories/us.json"),
+  business: () => import("@/data/categories/business.json"),
+  finance: () => import("@/data/categories/finance.json"),
+  world: () => import("@/data/categories/world.json"),
 };
+
+async function loadCategoryData(category) {
+  const loadCategory = categoryModules[category];
+  if (!loadCategory) return null;
+  const { default: data } = await loadCategory();
+  return data;
+}
+
+export async function generateMetadata({ params }) {
+  const { category } = await params;
+  const data = await loadCategoryData(category);
+  if (!data) return {};
+
+  const title = `${data.title} News`;
+  const description = `The latest ${data.title} headlines from La Vanguardia — breaking news, analysis and in-depth coverage, updated throughout the day.`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${category}` },
+    keywords: [data.title, `${data.title} news`, ...(data.subNav || [])],
+    openGraph: {
+      title: `${title} | La Vanguardia`,
+      description,
+      url: `/${category}`,
+      type: "website",
+    },
+    twitter: { title: `${title} | La Vanguardia`, description },
+  };
+}
 
 export default async function CategoryPage({ params }) {
   const { category } = await params;
-  const loadCategory = categoryModules[category];
-  if (!loadCategory) notFound();
+  const data = await loadCategoryData(category);
+  if (!data) notFound();
 
-  const { default: data } = await loadCategory();
   const articles = data.articles || [];
 
   // The first article becomes the section-front lead story (large feature
@@ -81,4 +103,3 @@ export default async function CategoryPage({ params }) {
     </div>
   );
 }
-

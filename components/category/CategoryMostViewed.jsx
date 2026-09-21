@@ -18,7 +18,7 @@ export default function CategoryMostViewed({ items = [] }) {
     <div>
       <h2 className="font-serif text-2xl font-bold leading-none text-ink">
         Most viewed
-        <span className="mt-3 block h-[3px] w-9 bg-accent" aria-hidden="true" />
+        <span className="mt-3 block h-[3px] w-9 bg-accent shadow-[var(--shadow-accent-sm)]" aria-hidden="true" />
       </h2>
 
       <ol className="mt-6 divide-y divide-rule">

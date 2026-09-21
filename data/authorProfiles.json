@@ -1,0 +1,18 @@
+{
+  "james-carter": {
+    "bio": "James Carter covers national politics and policy from Washington, with a focus on Congress, elections and the federal government.",
+    "image": "/images/authors/james-carter.webp"
+  },
+  "sophia-reyes": {
+    "bio": "Sophia Reyes reports on corporate deals, retail and the companies shaping the U.S. economy from New York, with a focus on mergers and workforce trends.",
+    "image": "/images/authors/sophia-reyes.webp"
+  },
+  "daniel-okafor": {
+    "bio": "Daniel Okafor covers markets, monetary policy and the Federal Reserve from New York, tracking how interest rates and inflation move stocks, bonds and household finances.",
+    "image": "/images/authors/daniel-okafor.webp"
+  },
+  "elena-petrova": {
+    "bio": "Elena Petrova reports on international affairs from London, covering diplomacy, science and major events across Europe, Asia and beyond.",
+    "image": "/images/authors/elena-petrova.webp"
+  }
+}

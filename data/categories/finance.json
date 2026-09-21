@@ -1,0 +1,114 @@
+{
+  "category": "finance",
+  "title": "Finance",
+  "subNav": [
+    "Markets",
+    "Banking",
+    "Personal Finance",
+    "Crypto"
+  ],
+  "articles": [
+    {
+      "id": "fin1",
+      "slug": "dow-closes-above-54000-record-high",
+      "category": "finance",
+      "title": "Wall Street closes at record highs as the Dow tops 54,000 for the first time",
+      "dek": "Strong corporate earnings, a rebound in tech shares and hopes for progress on reopening the Strait of Hormuz drove a broad rally across major indexes.",
+      "tag": "Markets",
+      "author": "DANIEL OKAFOR | New York",
+      "date": "2026-08-04",
+      "image": "/images/dow-closes-above-54000-record-high.webp",
+      "body": [
+        "The S&P 500 closed at a record high Tuesday, ending a two-month stretch in which the index had drifted as much as 5% below its previous peak. The benchmark surged 1.79% to close at 7,737 points, its first record close in two months, while the Dow Jones Industrial Average jumped more than 900 points, or 1.71%, to close above 54,000 for the first time ever.",
+        "The tech-heavy Nasdaq Composite climbed 2.59% on the day, though it remained roughly 2% below its own record set earlier in the summer as it continued recovering from a bout of anxiety over AI-related stocks. Semiconductor shares had dropped sharply in late July, pulling the Nasdaq to the edge of a correction, before investors began rotating back into chipmakers and other technology names in early August.",
+        "Traders pointed to several factors behind the rally: a run of stronger-than-expected corporate earnings, renewed risk appetite as chipmakers rebounded from their summer slide, and cautious optimism that diplomatic efforts might ease tensions around the Strait of Hormuz, a shipping chokepoint that has weighed on energy markets for months.",
+        "The milestone extended a year in which the S&P 500 has notched dozens of record closes, even as investors continue to weigh risks including elevated Treasury yields and the possibility that the Federal Reserve could raise interest rates later in the year. Market strategists note that historically, clusters of record highs have tended to be followed by further gains rather than an immediate pullback, though they caution that past patterns are no guarantee against a correction."
+      ]
+    },
+    {
+      "id": "fin2",
+      "slug": "bitcoin-nears-80000-then-slides-jackson-hole",
+      "category": "finance",
+      "title": "Bitcoin nears $80,000 before sliding on the Fed's hawkish Jackson Hole signal",
+      "dek": "The cryptocurrency rallied for much of August before Chair Kevin Warsh's remarks on inflation triggered a sharp reversal and roughly $488 million in liquidations.",
+      "tag": "Crypto",
+      "author": "DANIEL OKAFOR | New York",
+      "date": "2026-09-01",
+      "image": "/images/bitcoin-nears-80000-then-slides-jackson-hole.webp",
+      "body": [
+        "Bitcoin spent much of August climbing steadily toward $80,000, extending a rally built on strong institutional demand and renewed enthusiasm at industry conferences including Bitcoin Asia and Bitcoin Hong Kong, which together drew tens of thousands of attendees to discuss institutional adoption and regulatory frameworks. The cryptocurrency opened August 28 at $80,261.86, its highest opening price since mid-May, before the month's rally abruptly reversed.",
+        "The trigger was Federal Reserve Chair Kevin Warsh's keynote address at the Kansas City Fed's Jackson Hole symposium on August 28, in which he said 12-month inflation remained well above the central bank's target and that the Fed needed to see clear, sustained progress before declaring victory over price pressures. Markets read the speech as opening the door to a September interest rate increase, and risk assets sold off in response. Bitcoin fell roughly 3% over the following two sessions, dropping to about $77,700, with an estimated $488 million in leveraged crypto positions liquidated as the price swung.",
+        "The pullback illustrated how closely digital asset prices have come to track traditional monetary policy expectations, a shift from crypto's early positioning as an asset largely uncorrelated with conventional markets. Bitcoin's market capitalization remained around $1.33 trillion even after the decline, still comfortably ahead of second-place Ethereum.",
+        "Traders said Bitcoin's next moves would likely hinge on the Federal Reserve's September 15-16 meeting, where policymakers are weighing whether to raise the benchmark rate for the first time under Warsh's leadership — a decision with implications that now extend well beyond traditional equity and bond markets."
+      ]
+    },
+    {
+      "id": "fin3",
+      "slug": "grain-commodity-prices-surge-black-sea-disruption",
+      "category": "finance",
+      "title": "Grain prices surge as Black Sea shipping disruptions squeeze global supply",
+      "dek": "Wheat has climbed more than 50% this year after attacks disrupted exports through the Black Sea and Sea of Azov, while corn and soybeans have also risen sharply.",
+      "tag": "Commodities",
+      "author": "DANIEL OKAFOR | New York",
+      "date": "2026-08-28",
+      "image": "/images/grain-commodity-prices-surge-black-sea-disruption.webp",
+      "body": [
+        "Global grain markets have moved sharply higher this year as attacks in the Black Sea disrupted shipping routes that once carried the bulk of Russia's grain exports. Wheat prices are up roughly 10% over the past week alone, more than 20% over the past month, and 51% since the start of the year, according to trading data reviewed by commodity desks.",
+        "Corn has climbed 6% over the past week and 22% for the year, while soybean prices have risen 3% over the week and 22% year-to-date. Analysts attribute the corn increase largely to poor summer weather across parts of the U.S. growing region, while stepped-up demand from Chinese buyers has contributed to the rise in soybean prices.",
+        "The disruption stems from ongoing attacks by both Russian and Ukrainian forces in the Black Sea and Sea of Azov, which together halted nearly all grain shipments through ports that historically handled about 70% of Russia's grain exports. The interruption has rippled through global food markets, since Black Sea grain supplies major buyers across the Middle East, North Africa and parts of Asia.",
+        "Agricultural economists say the price increases are likely to filter through to food costs over the coming months, adding another source of inflationary pressure at a moment when central banks, including the Federal Reserve, are already weighing whether elevated prices require higher interest rates. Commodity traders are watching diplomatic efforts around the broader regional conflict for any signs that shipping routes could reopen."
+      ]
+    },
+    {
+      "id": "fin4",
+      "slug": "marvell-technology-earnings-chip-stocks-slide",
+      "category": "finance",
+      "title": "Marvell tops revenue estimates but shares slide anyway amid chip-sector jitters",
+      "dek": "The semiconductor maker posted $2.74 billion in quarterly revenue, narrowly beating forecasts, yet its stock fell as investors weighed broader questions about AI-driven chip demand.",
+      "tag": "Markets",
+      "author": "DANIEL OKAFOR | New York",
+      "date": "2026-08-28",
+      "image": "/images/marvell-technology-earnings-chip-stocks-slide.webp",
+      "body": [
+        "Marvell Technology posted second-quarter revenue of $2.74 billion, narrowly topping the $2.72 billion Wall Street had expected, but shares of the semiconductor maker fell in the days following the report as investors weighed the results against broader anxiety about the durability of AI-driven chip demand.",
+        "Several analysts said the post-earnings decline reflected sector-wide caution rather than company-specific concerns, arguing that Marvell's underlying performance did not justify the selloff. The stock's move came during a volatile stretch for chipmakers more broadly, after semiconductor shares dropped sharply in late July and pushed the Nasdaq Composite toward correction territory before partially recovering in August.",
+        "The chip sector has become one of the more closely watched corners of the stock market this year, given how heavily major indexes now lean on a small group of semiconductor and AI-infrastructure companies for their gains. Any sign of slowing demand, or even a modest earnings miss relative to sky-high expectations, has tended to trigger outsized stock moves.",
+        "Marvell's results arrived the same week as Federal Reserve Chair Kevin Warsh's Jackson Hole address, which shifted market attention toward interest-rate expectations and briefly overshadowed individual earnings reports. Traders said chip stocks would likely remain sensitive to both AI-spending headlines and the broader path of interest rates heading into the fall."
+      ]
+    },
+    {
+      "id": "fin5",
+      "slug": "fed-september-meeting-preview-warsh-inflation",
+      "category": "finance",
+      "title": "Markets brace for a high-stakes Fed decision as Chair Warsh signals inflation vigilance",
+      "dek": "Traders have priced in a majority chance of a quarter-point rate increase at this week's meeting, the first real test of Kevin Warsh's leadership of the central bank.",
+      "tag": "Federal Reserve",
+      "author": "DANIEL OKAFOR | New York",
+      "date": "2026-09-12",
+      "image": "/images/fed-september-meeting-preview-warsh-inflation.webp",
+      "body": [
+        "The Federal Reserve's Open Market Committee meets Tuesday and Wednesday for a decision that investors have been anticipating for weeks: whether to raise the benchmark interest rate for the first time since Kevin Warsh became Fed chair in May. The central bank has held its target range at 3.50% to 3.75% since July, when the committee voted 9-3 to hold rates steady despite three members pushing for an increase.",
+        "Warsh's keynote address at the Jackson Hole symposium on August 28 tilted market expectations toward a hike, as he pointed to 12-month inflation running around 3.7% and said the Fed needed to see underlying price pressures moving toward its target \"clearly and at sufficient speed.\" He has repeatedly declined to offer explicit forward guidance, saying the committee is committed to following the data rather than a predetermined path. As of this week, fed funds futures markets were pricing in well over a 60% probability of a quarter-point increase.",
+        "The decision carries unusual political weight. President Trump and other senior administration officials have publicly pushed the Fed to hold or cut rates rather than raise them, arguing that higher borrowing costs would hurt growth heading into the November midterms. Treasury Secretary Scott Bessent has noted that the Fed has historically been cautious about raising rates in response to supply-driven price shocks, a nod to the elevated energy costs tied to ongoing tensions in the Middle East.",
+        "A stronger-than-expected August jobs report, which showed employers adding 162,000 positions, has given the Fed additional room to focus on inflation without an immediate concern that a rate increase would destabilize the labor market. Whatever the committee decides, Wednesday's announcement will be closely parsed as the clearest signal yet of how Warsh intends to lead the Fed through a period of unusually high uncertainty."
+      ]
+    },
+    {
+      "id": "fin6",
+      "slug": "oil-prices-climb-middle-east-tensions-rate-hike-odds",
+      "category": "finance",
+      "title": "Oil prices climb on Middle East tensions, pushing rate-hike odds higher",
+      "dek": "A wave of strikes in the Persian Gulf and a pipeline closure in Saudi Arabia sent crude and gasoline prices higher, adding to inflationary pressure just before the Fed's rate decision.",
+      "tag": "Energy",
+      "author": "DANIEL OKAFOR | New York",
+      "date": "2026-09-13",
+      "image": "/images/oil-prices-climb-middle-east-tensions-rate-hike-odds.webp",
+      "body": [
+        "Oil prices extended their climb this week after Saudi Arabia shut a key pipeline used to move crude around the Strait of Hormuz following drone attacks, adding to a rally already underway amid a wave of strikes between the United States and Iran in the Persian Gulf. The increase pushed U.S. gasoline prices to a mid-August record earlier in the month, with the national average reaching just over $4 a gallon.",
+        "The rally in energy prices weighed on major U.S. stock indexes last week, with the Dow falling 1.57% and the S&P 500 and Nasdaq Composite each declining close to 1%. Markets stabilized somewhat on Friday as oil prices and Treasury yields paused their advance, allowing the major averages to snap a four-session losing streak, though volatility has remained elevated heading into this week's Federal Reserve meeting.",
+        "Rising energy costs have become a central complication for policymakers weighing whether to raise interest rates. Traders pricing fed funds futures have pushed the probability of a rate increase at this week's meeting to roughly 86%, according to data from the CME Group, as elevated fuel prices add to broader inflation pressures the Fed has been monitoring since summer.",
+        "Energy analysts caution that further disruptions to shipping through the Strait of Hormuz, a route that carries a significant share of the world's seaborne oil, could push prices meaningfully higher still. For now, markets are treating the current levels as a serious but manageable drag on growth, rather than a shock severe enough to trigger a broader economic slowdown."
+      ]
+    }
+  ]
+}

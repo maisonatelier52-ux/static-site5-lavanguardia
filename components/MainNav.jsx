@@ -15,9 +15,13 @@ export default function MainNav({ className = "" }) {
           <li key={item.href} className="flex items-stretch">
             <Link
               href={item.href}
-              className="flex items-center px-3 py-3.5 text-[13px] font-bold text-ink transition-colors hover:text-navy/70 lg:px-3.5 lg:text-[13.5px]"
+              className="group relative flex items-center px-3 py-3.5 text-[13px] font-bold text-ink transition-colors hover:text-accent lg:px-3.5 lg:text-[13.5px]"
             >
               {item.label}
+              <span
+                className="pointer-events-none absolute inset-x-3 bottom-2 h-px origin-center scale-x-0 bg-accent shadow-[0_0_6px_var(--color-accent)] transition-transform duration-300 ease-out group-hover:scale-x-100"
+                aria-hidden="true"
+              />
             </Link>
             {idx < siteConfig.mainNav.length - 1 && (
               <span className="my-3 w-px bg-rule" aria-hidden="true" />

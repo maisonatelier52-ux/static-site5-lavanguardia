@@ -12,15 +12,19 @@ export default function Footer() {
   const { footer } = siteConfig;
 
   return (
-    <footer className="mt-auto bg-navy">
+    <footer className="mt-auto border-t border-white/[0.06] bg-navy">
+      {/* Same signature glow edge as the header, so the masthead and the
+          colophon read as the top and bottom of one continuous frame. */}
+      <div className="rule-glow" aria-hidden="true" />
+
       <div className="mx-auto max-w-[1440px] px-6 py-12 md:py-14">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div>
             <Link href="/" aria-label={siteConfig.siteName} className="inline-flex flex-col">
-              <span className="font-serif text-3xl font-black uppercase tracking-[-0.01em] text-white md:text-4xl">
+              <span className="font-serif text-3xl font-black uppercase tracking-[-0.01em] text-white [text-shadow:0_0_26px_rgba(255,215,0,0.16)] md:text-4xl">
                 {siteConfig.siteName}
               </span>
-              <span className="mt-3 h-[3px] w-12 bg-gold" aria-hidden="true" />
+              <span className="mt-3 h-[3px] w-12 bg-gold shadow-[var(--shadow-gold)]" aria-hidden="true" />
             </Link>
           </div>
 
@@ -30,7 +34,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-[13px] font-medium text-white/75 transition-colors hover:text-gold"
+                    className="text-[13px] font-medium text-white/75 transition-colors hover:text-accent"
                   >
                     {link.label}
                   </Link>
@@ -41,7 +45,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-6">
-          <p className="text-xs text-white/50">{footer.copyright}</p>
+          <p className="font-mono text-[11px] uppercase tracking-[0.06em] text-white/40">{footer.copyright}</p>
         </div>
       </div>
     </footer>

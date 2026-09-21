@@ -43,7 +43,7 @@ export default function CategoryArticleRow({ article }) {
         </h3>
         {article.dek && <p className="mt-2 text-[14.5px] leading-relaxed text-ink-soft">{article.dek}</p>}
         {article.author && (
-          <p className="mt-2.5 text-[11px] font-semibold uppercase tracking-[0.04em] text-ink-faint">
+          <p className="mt-2.5 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-ink-faint">
             {authorHref ? (
               <Link href={authorHref} className="hover:text-accent">
                 {article.author}

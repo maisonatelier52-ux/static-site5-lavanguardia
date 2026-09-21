@@ -35,7 +35,7 @@ export default function Logo({ className = "", shrink = false, mobile = false })
       ------------------------------------------------------------------ */}
 
       <span
-        className={`truncate font-serif font-black uppercase text-white transition-all duration-300 ease-out ${
+        className={`truncate font-serif font-black uppercase text-white transition-all duration-300 ease-out [text-shadow:0_0_26px_rgba(255,215,0,0.16)] ${
           mobile
             ? "text-lg tracking-[-0.01em]"
             : shrink
@@ -47,7 +47,7 @@ export default function Logo({ className = "", shrink = false, mobile = false })
       </span>
       {!mobile && (
         <span
-          className={`bg-gold transition-all duration-300 ease-out ${
+          className={`bg-gold shadow-[var(--shadow-gold)] transition-all duration-300 ease-out ${
             shrink ? "mt-0 h-0 w-0 opacity-0" : "mt-2 h-[3px] w-14 opacity-100"
           }`}
           aria-hidden="true"

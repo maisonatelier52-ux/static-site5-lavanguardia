@@ -7,10 +7,12 @@
 export default function ArticleAudioWidget() {
   return (
     <div className="inline-flex items-center gap-2.5 border-y border-rule px-4 py-2.5 text-ink">
-      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-panel">
-        <HeadphonesIcon className="h-3.5 w-3.5" />
+      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 ring-1 ring-accent/30">
+        <HeadphonesIcon className="h-3.5 w-3.5 text-accent" />
       </span>
-      <span className="text-[11px] font-semibold uppercase tracking-[0.04em]">Subscribe to listen to this article</span>
+      <span className="font-mono text-[10.5px] font-semibold uppercase tracking-[0.08em]">
+        Subscribe to listen to this article
+      </span>
     </div>
   );
 }

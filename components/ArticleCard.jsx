@@ -12,7 +12,14 @@ import TagBadge from "@/components/TagBadge";
  *  - "opinion"    italic serif headline, columnist tone
  *  - "latestNews" compact timestamp + tag + headline row
  *  - "numbered"   index number + headline (Most viewed list)
+ *
+ * Bylines are set in monospace across every variant — a small, repeated
+ * detail (author credit reads like a byline/timestamp on a data readout)
+ * that reinforces the system's print-meets-console identity without
+ * touching the serif headline type.
  */
+const BYLINE_CLASS = "font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-ink-faint";
+
 export default function ArticleCard({
   article,
   variant = "text",
@@ -50,9 +57,7 @@ export default function ArticleCard({
           </Link>
         </h3>
         {showDek && article.dek && <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">{article.dek}</p>}
-        {showByline && article.author && (
-          <p className="mt-2.5 text-[11px] font-semibold uppercase tracking-[0.04em] text-ink-faint">{article.author}</p>
-        )}
+        {showByline && article.author && <p className={`mt-2.5 ${BYLINE_CLASS}`}>{article.author}</p>}
       </article>
     );
   }
@@ -78,11 +83,7 @@ export default function ArticleCard({
               {article.title}
             </Link>
           </h3>
-          {showByline && article.author && (
-            <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.04em] text-ink-faint">
-              {article.author}
-            </p>
-          )}
+          {showByline && article.author && <p className={`mt-1.5 ${BYLINE_CLASS}`}>{article.author}</p>}
         </div>
       </article>
     );
@@ -92,7 +93,7 @@ export default function ArticleCard({
     return (
       <article>
         {article.kicker && (
-          <p className="text-[11px] font-bold uppercase tracking-[0.04em] text-accent">{article.kicker}</p>
+          <p className="font-mono text-[10.5px] font-bold uppercase tracking-[0.1em] text-accent">{article.kicker}</p>
         )}
         <h3 className={`font-serif italic font-semibold leading-snug text-ink ${article.kicker ? "mt-2" : ""} text-[19px]`}>
           {article.tag && <TagBadge>{article.tag}</TagBadge>}
@@ -101,9 +102,7 @@ export default function ArticleCard({
           </Link>
         </h3>
         {showDek && article.dek && <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{article.dek}</p>}
-        {showByline && article.author && (
-          <p className="mt-2.5 text-[11px] font-semibold uppercase tracking-[0.04em] text-ink-faint">{article.author}</p>
-        )}
+        {showByline && article.author && <p className={`mt-2.5 ${BYLINE_CLASS}`}>{article.author}</p>}
       </article>
     );
   }
@@ -111,7 +110,7 @@ export default function ArticleCard({
   if (variant === "latestNews") {
     return (
       <article className="flex gap-2.5 py-3 text-[14.5px] leading-snug">
-        {article.time && <span className="shrink-0 font-bold text-accent">{article.time}</span>}
+        {article.time && <span className="shrink-0 font-mono font-bold text-accent">{article.time}</span>}
         <span className="text-ink">
           {article.tag && <TagBadge>{article.tag}</TagBadge>}
           <Link href={href} className="font-semibold hover:text-accent-ink">
@@ -149,9 +148,7 @@ export default function ArticleCard({
         </Link>
       </h3>
       {showDek && article.dek && <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{article.dek}</p>}
-      {showByline && article.author && (
-        <p className="mt-2.5 text-[11px] font-semibold uppercase tracking-[0.04em] text-ink-faint">{article.author}</p>
-      )}
+      {showByline && article.author && <p className={`mt-2.5 ${BYLINE_CLASS}`}>{article.author}</p>}
     </article>
   );
 }

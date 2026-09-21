@@ -38,7 +38,7 @@ function RankedRow({ article, rank }) {
   return (
     <article className="relative flex items-center gap-1 border-b border-rule py-4 first:pt-0 last:border-b-0">
       <span
-        className="pointer-events-none select-none font-serif text-[3.4rem] font-black leading-none text-transparent [-webkit-text-stroke:1.5px_var(--color-rule)]"
+        className="pointer-events-none select-none font-serif text-[3.4rem] font-black leading-none text-transparent [-webkit-text-stroke:1.5px_rgba(47,230,201,0.4)] drop-shadow-[0_0_10px_rgba(47,230,201,0.22)]"
         aria-hidden="true"
       >
         {rank}

@@ -1,91 +1,109 @@
-// Homepage LAYOUT — which articles appear in which section, column, and
-// order. This file intentionally holds NO article content (no title, dek,
-// author, image, tag) — only structure plus a few homepage-only display
-// fields (time / kicker / rank). Every entry below is just `{ id }` (or
-// `{ id, time }`, `{ id, kicker }`, `{ id, rank }`), and the actual
-// article content is looked up from data/categories/<category>.json by
-// lib/getHomeContent.js at render time.
-//
-// This is the single place to reorder/add/remove what shows up on the
-// homepage. To change what an article SAYS, edit its entry in
-// data/categories/<category>.json — the same edit is instantly reflected
-// on both the homepage and that article's category page, since both now
-// read from the same underlying data.
-//
-// Regenerated once by scripts/migrate-to-home-layout.mjs from the old
-// data/homeContent.js — hand-maintain this file from now on.
-
-export const homeLayout = {
+/**
+ * Homepage LAYOUT ONLY — which article id appears in which
+ * section/column/rail, plus a handful of homepage-only display fields
+ * (`time` on the Latest ticker, `kicker` overrides in Opinion and
+ * analysis). Article CONTENT (title, dek, author, image, tag, body) lives
+ * entirely in data/categories/<category>.json; lib/getHomeContent.js
+ * resolves every `{ id }` reference below against those files at render
+ * time (see that file for the resolver itself).
+ *
+ * Rebuilt around the site's 4 real categories (U.S., Business, Finance,
+ * World — 24 articles total). A few sections were renamed or repurposed
+ * to fit real content instead of the old placeholder categories/brands:
+ *   - "cryptos" -> "markets": every Finance article now appears
+ *     somewhere in this section, so it is a genuine markets module
+ *     rather than a narrow crypto-only one.
+ *   - "economy" -> "business": same component (ArticleAdSection),
+ *     now fed by the Business category.
+ *   - "multiTopics": the old unrelated magazine-brand columns
+ *     (Fortune / Legal / Breaking Views / Smartlife) are now one
+ *     mini-column per real category.
+ *   - "brandTeasers": the old unrelated sub-brand row (EL MOTOR / AS /
+ *     Retina) now cross-promotes the site's own 4 categories, using
+ *     each category's real accent color.
+ *   - The old "markets" (Kutxabank-sponsored "Funds and plans") and
+ *     "El País" sections were dropped rather than repurposed — both
+ *     were tied to a specific external sponsor/outlet that has no
+ *     equivalent in the new content, and folding them into another
+ *     section kept every one of the 24 real articles from needing more
+ *     than a few repeat appearances across the page.
+ *
+ * With only 24 real articles feeding roughly 50 homepage slots, some
+ * articles are deliberately referenced more than once (a lead story
+ * also turning up in Most viewed or a topic column) — the same pattern
+ * real news homepages use, not an error.
+ */
+const homeLayout = {
   "hero": {
     "left": [
       {
-        "id": "a1"
+        "id": "wld2"
       },
       {
-        "id": "a2"
+        "id": "biz1"
       }
     ],
     "center": {
-      "id": "a4"
+      "id": "fin5"
     },
     "right": [
       {
-        "id": "a5"
+        "id": "us5"
       },
       {
-        "id": "a6"
+        "id": "wld5"
       }
     ],
     "latestNews": [
       {
-        "id": "a7",
-        "time": "07:54"
+        "id": "wld4",
+        "time": "09:15"
       },
       {
-        "id": "a8",
-        "time": "07:21"
+        "id": "fin6",
+        "time": "16:40"
       },
       {
-        "id": "a9",
-        "time": "06:48"
+        "id": "wld6",
+        "time": "07:30"
       }
     ]
   },
   "present": {
     "left": {
       "lead": {
-        "id": "a10"
+        "id": "us1"
       },
       "items": [
         {
-          "id": "a11"
+          "id": "biz6"
         },
         {
-          "id": "a12"
+          "id": "fin3"
         },
         {
-          "id": "a13"
+          "id": "wld1"
         }
       ]
     },
     "middle": {
       "opinionItems": [
         {
-          "id": "a14"
+          "id": "us2"
         },
         {
-          "id": "a15"
+          "id": "biz2"
         }
       ],
       "imageItem": {
-        "id": "a16"
+        "id": "fin1"
       },
       "textItem": {
-        "id": "a17"
+        "id": "wld3"
       }
     },
     "sponsored": {
-      "title": "A streaming partnership brings a soundtrack to the small moments of summer",
+      "title": "Get U.S., Business, Finance and World news in your inbox every morning",
       "image": "/images/pay-for-power.webp"
     }
   },
@@ -93,47 +111,47 @@ export const homeLayout = {
     "title": "The best of the week",
     "items": [
       {
-        "id": "a18"
+        "id": "us4"
       },
       {
-        "id": "a19"
+        "id": "biz3"
       },
       {
-        "id": "a20"
+        "id": "fin4"
       },
       {
-        "id": "a21"
+        "id": "wld1"
       }
     ]
   },
-  "cryptos": {
-    "title": "Cryptos",
+  "markets": {
+    "title": "Markets",
     "lead": {
-      "id": "a22"
+      "id": "fin2"
     },
     "columns": [
       [
         {
           "article": {
-            "id": "a23"
+            "id": "fin1"
           }
         },
         {
           "article": {
-            "id": "a24"
+            "id": "fin6"
           }
         }
       ]
     ],
     "secondaryRow": [
       {
-        "id": "a25"
+        "id": "fin3"
       },
       {
-        "id": "a26"
+        "id": "fin4"
       },
       {
-        "id": "a27"
+        "id": "fin5"
       }
     ]
   },
@@ -141,237 +159,154 @@ export const homeLayout = {
     "title": "Opinion and analysis",
     "items": [
       {
-        "id": "a28",
+        "id": "biz2",
         "kicker": "Editorial"
       },
       {
-        "id": "a29"
+        "id": "wld6",
+        "kicker": "Analysis"
       },
       {
-        "id": "a30"
+        "id": "us6",
+        "kicker": "Analysis"
       },
       {
-        "id": "a31"
+        "id": "fin6",
+        "kicker": "Perspective"
       }
     ]
   },
-  "economy": {
-    "title": "Economy",
+  "business": {
+    "title": "Business",
     "lead": {
-      "id": "a32"
+      "id": "biz1"
     },
     "columns": [
       [
         {
           "article": {
-            "id": "a33"
+            "id": "biz2"
           }
         },
         {
           "article": {
-            "id": "a34"
+            "id": "biz5"
           }
         },
         {
           "article": {
-            "id": "a3"
-          }
-        }
-      ],
-      [
-        {
-          "article": {
-            "id": "a35"
-          }
-        },
-        {
-          "article": {
-            "id": "a36"
-          }
-        },
-        {
-          "article": {
-            "id": "a80"
+            "id": "biz6"
           }
         }
       ]
     ]
   },
   "extras": {
-    "title": "Extras",
+    "title": "More headlines",
     "items": [
       {
-        "id": "a37"
+        "id": "us3"
       },
       {
-        "id": "a38"
+        "id": "wld5"
       },
       {
-        "id": "a39"
+        "id": "us6"
       },
       {
-        "id": "a40"
+        "id": "fin4"
       }
-    ]
-  },
-  "markets": {
-    "title": "Markets",
-    "lead": {
-      "id": "a41"
-    },
-    "columns": [
-      [
-        {
-          "article": {
-            "id": "a42"
-          }
-        },
-        {
-          "article": {
-            "id": "a43"
-          }
-        }
-      ],
-      [
-        {
-          "article": {
-            "id": "a44"
-          }
-        },
-        {
-          "article": {
-            "id": "a45"
-          }
-        }
-      ]
-    ]
-  },
-  "elPais": {
-    "title": "EL PAÍS",
-    "items": [
-      {
-        "id": "a46"
-      },
-      {
-        "id": "a47"
-      },
-      {
-        "id": "a48"
-      },
-      {
-        "id": "a49"
-      }
-    ]
-  },
-  "fundsAndPlans": {
-    "title": "Funds and plans",
-    "sponsorLabel": "Sponsored by Kutxabank",
-    "lead": {
-      "id": "a50"
-    },
-    "columns": [
-      [
-        {
-          "article": {
-            "id": "a51"
-          }
-        }
-      ],
-      [
-        {
-          "article": {
-            "id": "a52"
-          }
-        },
-        {
-          "article": {
-            "id": "a53"
-          }
-        }
-      ]
     ]
   },
   "multiTopics": [
     {
-      "title": "Fortune",
+      "title": "U.S.",
       "items": [
         {
-          "id": "a54"
+          "id": "us1"
         },
         {
-          "id": "a55"
+          "id": "us3"
         },
         {
-          "id": "a56"
+          "id": "us4"
         }
       ]
     },
     {
-      "title": "Legal",
+      "title": "Business",
       "items": [
         {
-          "id": "a57"
+          "id": "biz1"
         },
         {
-          "id": "a58"
+          "id": "biz4"
         },
         {
-          "id": "a59"
+          "id": "biz5"
         }
       ]
     },
     {
-      "title": "Breaking Views",
+      "title": "Finance",
       "items": [
         {
-          "id": "a60"
+          "id": "fin2"
         },
         {
-          "id": "a61"
+          "id": "fin5"
         },
         {
-          "id": "a62"
+          "id": "fin6"
         }
       ]
     },
     {
-      "title": "Smartlife",
+      "title": "World",
       "items": [
         {
-          "id": "a63"
+          "id": "wld1"
         },
         {
-          "id": "a64"
+          "id": "wld2"
         },
         {
-          "id": "a65"
+          "id": "wld4"
         }
       ]
     }
   ],
   "brandTeasers": [
     {
-      "name": "EL MOTOR",
-      "color": "#0EA5E9",
-      "href": "#",
+      "name": "U.S.",
+      "color": "#2FE6C9",
+      "href": "/us",
       "article": {
-        "id": "a66"
+        "id": "us2"
       }
     },
     {
-      "name": "AS",
-      "color": "#E4032E",
-      "href": "#",
+      "name": "BUSINESS",
+      "color": "#7C6CFF",
+      "href": "/business",
       "article": {
-        "id": "a67"
+        "id": "biz3"
       }
     },
     {
-      "name": "Retina",
-      "color": "#D6249F",
-      "href": "#",
+      "name": "FINANCE",
+      "color": "#FFD700",
+      "href": "/finance",
       "article": {
-        "id": "a68"
+        "id": "fin3"
+      }
+    },
+    {
+      "name": "WORLD",
+      "color": "#FF3D5F",
+      "href": "/world",
+      "article": {
+        "id": "wld3"
       }
     }
   ],
@@ -379,44 +314,34 @@ export const homeLayout = {
     "title": "Most viewed",
     "items": [
       {
-        "id": "a69",
-        "rank": 1
+        "id": "fin5"
       },
       {
-        "id": "a70",
-        "rank": 2
+        "id": "wld4"
       },
       {
-        "id": "a71",
-        "rank": 3
+        "id": "us3"
       },
       {
-        "id": "a72",
-        "rank": 4
+        "id": "biz1"
       },
       {
-        "id": "a73",
-        "rank": 5
+        "id": "wld2"
       },
       {
-        "id": "a74",
-        "rank": 6
+        "id": "fin6"
       },
       {
-        "id": "a75",
-        "rank": 7
+        "id": "us1"
       },
       {
-        "id": "a76",
-        "rank": 8
+        "id": "wld6"
       },
       {
-        "id": "a77",
-        "rank": 9
+        "id": "biz4"
       },
       {
-        "id": "a78",
-        "rank": 10
+        "id": "us5"
       }
     ]
   }

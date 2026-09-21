@@ -29,8 +29,8 @@ export default function HeroSection({ left, center, right, latestNews }) {
   return (
     <div>
       {latestNews?.length > 0 && (
-        <div className="mb-7 hidden items-stretch border-y-2 border-ink md:flex">
-          <span className="flex shrink-0 items-center gap-2 bg-accent px-4 text-[11px] font-bold uppercase tracking-[0.08em] text-white">
+        <div className="mb-7 hidden items-stretch overflow-hidden border-y border-white/10 bg-panel/30 backdrop-blur-sm md:flex">
+          <span className="flex shrink-0 items-center gap-2 bg-live px-4 text-[11px] font-bold uppercase tracking-[0.08em] text-white shadow-[var(--shadow-live)]">
             <PulseDot />
             Latest
           </span>
@@ -50,8 +50,10 @@ export default function HeroSection({ left, center, right, latestNews }) {
           <CoverArticle article={center} />
         </div>
 
-        {/* Right — "In brief" sidebar well */}
-        <div className="bg-panel px-6 py-5">
+        {/* Right — "In brief" sidebar well, a frosted-glass panel with a
+            thin accent flag on its leading edge, distinct from the flat
+            panel fills used elsewhere. */}
+        <div className="glass border-l-2 border-accent/50 px-6 py-5">
           <p className="font-serif text-lg font-bold italic text-ink">In brief</p>
           <div className="mt-3 divide-y divide-rule [&>*]:py-3 first:[&>*]:pt-0">
             {stacked.map((article) => (
@@ -110,7 +112,7 @@ function CoverArticle({ article }) {
   const href = `/${article.category || "article"}/${article.slug}`;
 
   return (
-    <article className="group relative overflow-hidden">
+    <article className="group relative overflow-hidden ring-1 ring-white/[0.06]">
       <a href={href} className="block">
         <div className="relative aspect-[4/5] w-full overflow-hidden sm:aspect-[3/2] md:aspect-[16/10]">
           <ImagePlaceholder
@@ -118,7 +120,7 @@ function CoverArticle({ article }) {
             alt={article.title}
             className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.04]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/95 via-black/30 to-transparent" />
         </div>
       </a>
       <div className="pointer-events-none absolute inset-x-0 bottom-0 p-6 md:p-8">
@@ -136,7 +138,7 @@ function CoverArticle({ article }) {
           <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-white/85 md:text-base">{article.dek}</p>
         )}
         {article.author && (
-          <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.05em] text-white/70">{article.author}</p>
+          <p className="mt-3 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-white/65">{article.author}</p>
         )}
       </div>
     </article>

@@ -11,7 +11,11 @@ export default function BrandTeaserRow({ brands }) {
   return (
     <div className="grid grid-cols-1 items-start gap-x-9 gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
       {brands.map((brand) => (
-        <div key={brand.name} className="border-t-4" style={{ borderColor: brand.color }}>
+        <div
+          key={brand.name}
+          className="border-t-4"
+          style={{ borderColor: brand.color, boxShadow: `0 10px 24px -18px ${brand.color}` }}
+        >
           <Link href={brand.href || "#"} className="inline-block px-0.5 pt-3">
             <span className="font-serif text-lg font-black uppercase tracking-[-0.01em]" style={{ color: brand.color }}>
               {brand.name}

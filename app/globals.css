@@ -3,33 +3,42 @@
 @theme inline {
   --font-sans: "Inter", Arial, Helvetica, sans-serif;
   --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 
-  /* ---- Editorial palette -----------------------------------------
-     A print-broadsheet system built around one confident accent (a
-     wax-seal red used the way a masthead rule or a single red stamp
-     would be used on a printed page) rather than the warm-cream/gold
-     combination this project shipped with. Everything else is tuned
-     ink-on-paper: a cool near-black ink, a warm-white paper surface,
-     and a deeper paper "panel" tone for rails and insets. */
-  --color-paper: #fbfaf7;
-  --color-panel: #f1efe6;
-  --color-panel-line: #e7e2d4;
-  --color-ink: #14181c;
-  --color-ink-soft: #565d64;
-  --color-ink-faint: #8a8f94;
-  --color-rule: #dbd5c7;
-  --color-rule-strong: #14181c;
-  --color-accent: #b3121b;
-  --color-accent-ink: #7e0d14;
-  --color-accent-tint: #f4e3e0;
+  /* ---- Nocturne editorial palette ---------------------------------
+     A dark, futuristic take on the print-broadsheet system: near-black
+     "paper", a soft off-white ink, and one confident electric accent
+     (a "signal" teal/cyan, the way a live-data readout or a terminal
+     cursor reads on a dark console) instead of the old wax-seal red.
+     A second violet accent exists only to pair with teal in gradients
+     (section rules, dividers) — it never appears as a solid fill on
+     its own. Breaking/live moments get their own dedicated red so the
+     "LATEST" ticker still reads as urgent, universal breaking-news
+     red, distinct from the everyday interactive teal. */
+  --color-paper: #090b10;
+  --color-panel: #12151c;
+  --color-panel-line: #242a35;
+  --color-ink: #f2f4f7;
+  --color-ink-soft: #a1a9b6;
+  --color-ink-faint: #656d7a;
+  --color-rule: #1f2430;
+  --color-rule-strong: #f2f4f7;
+  --color-accent: #2fe6c9;
+  --color-accent-ink: #8ff3e1;
+  --color-accent-2: #7c6cff;
+  --color-accent-tint: rgba(47, 230, 201, 0.1);
+  --color-live: #ff3d5f;
 
-  /* Header/footer keep their original navy identity — restored per
-     request, separate from the body-content editorial palette below.
-     Gold stays as the header's Subscribe-button/accent color, matching
-     the original masthead. */
-  --color-navy: #001c4c;
-  --color-navy-dark: #001636;
-  --color-cream: #eaede2;
+  /* Header/footer keep their own slightly-elevated dark surface,
+     stepped subtly above the page "paper" tone (rather than the old
+     solid-navy block) so the whole site reads as one continuous dark
+     canvas with the masthead simply riding a notch higher. Gold is
+     kept, unchanged, as the sole premium/brand accent — the wordmark
+     rule and the Subscribe button — never used for ordinary hover
+     states (those are teal) so it stays meaningful. */
+  --color-navy: #070911;
+  --color-navy-dark: #04050a;
+  --color-cream: #0d1017;
   --color-gold: #ffd700;
   --color-hairline: var(--color-rule);
   --color-page-bg: var(--color-paper);
@@ -40,14 +49,50 @@
 :root {
   --background: var(--color-paper);
   --foreground: var(--color-ink);
+
+  /* Composite glow/glass values — plain CSS custom properties (not
+     Tailwind color tokens) so a single edit here re-tunes every glow
+     and glass surface in the system at once. */
+  --shadow-accent: 0 0 26px rgba(47, 230, 201, 0.32);
+  --shadow-accent-sm: 0 0 10px rgba(47, 230, 201, 0.5);
+  --shadow-gold: 0 0 22px rgba(255, 215, 0, 0.28);
+  --shadow-live: 0 0 14px rgba(255, 61, 95, 0.55);
+  --glass-bg: rgba(15, 18, 24, 0.55);
+  --glass-border: rgba(242, 244, 247, 0.08);
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background: var(--background);
   color: var(--foreground);
+}
+
+html {
+  background-color: var(--background);
+  scrollbar-color: var(--color-panel-line) var(--color-paper);
+  scrollbar-width: thin;
+}
+
+/* The masthead is a shrinking `position: sticky` element (it collapses
+   its dateline/nav rows on scroll). Chrome and Firefox ship "scroll
+   anchoring" by default, which tries to compensate for content above
+   the viewport changing size by nudging `window.scrollY` to keep the
+   same content pinned on screen — and the header's own scroll listener
+   then reacts to that nudge as if the person had scrolled, right in the
+   middle of its own collapse animation, which can turn a single 300ms
+   transition into a stuttery, re-triggered one, or even a sustained
+   flip-flop between expanded and collapsed if a single correction is
+   large enough to overshoot both of the listener's thresholds at once
+   (see the comment in Header.jsx's scroll effect for the full mechanics).
+   Opting out at the document root, not just the header itself, removes
+   the browser behavior that produces that correction in the first
+   place, however it's triggered, rather than only excluding the header
+   from being anchored to. (No effect in Safari, which never anchored
+   here to begin with — harmless no-op there.) */
+html,
+[data-site-header] {
+  overflow-anchor: none;
 }
 
 body {
@@ -58,6 +103,28 @@ body {
   min-height: 100vh;
   font-feature-settings: "kern" 1, "liga" 1;
   -webkit-font-smoothing: antialiased;
+
+  /* Ambient backdrop: two very soft colour blooms (teal + violet, the
+     system's own accent pair) plus a faint fixed grid — a HUD/console
+     texture, kept subtle enough (≈3.5% line opacity) to never compete
+     with foreground text. Fixed so it doesn't scroll away/repeat oddly
+     inside a page that's shorter or taller than the viewport. */
+  background-color: var(--background);
+  background-image: radial-gradient(
+      ellipse 900px 560px at 10% -12%,
+      rgba(124, 108, 255, 0.14),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse 800px 520px at 104% 6%,
+      rgba(47, 230, 201, 0.12),
+      transparent 58%
+    ),
+    linear-gradient(rgba(242, 244, 247, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(242, 244, 247, 0.035) 1px, transparent 1px);
+  background-repeat: no-repeat, no-repeat, repeat, repeat;
+  background-size: 100% 100%, 100% 100%, 56px 56px, 56px 56px;
+  background-attachment: fixed, fixed, fixed, fixed;
 }
 
 #__next,
@@ -67,9 +134,32 @@ main {
   flex: 1;
 }
 
+/* Custom scrollbar — a thin, dark-console bar rather than the default
+   light OS scrollbar, which would otherwise be the single brightest
+   element on the page. Lights up teal on hover as a small "live"
+   affordance. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-paper);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-panel-line);
+  border-radius: 999px;
+  border: 2px solid var(--color-paper);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
 ::selection {
   background: var(--color-accent);
-  color: var(--color-paper);
+  color: var(--color-navy-dark);
 }
 
 /* Visible keyboard focus everywhere, drawn in the accent rather than the
@@ -93,10 +183,11 @@ main {
   overflow: hidden;
 }
 
-/* ---- Editorial type utilities --------------------------------------
+/* ---- Futuristic-editorial type & surface utilities ------------------
    Small, reusable primitives used across the masthead, section heads and
-   article body so the "print" details (rule weights, drop cap, dateline)
-   live in one place instead of being re-invented per component. */
+   article body so the "print-meets-console" details (glow rules, glass
+   panels, drop cap) live in one place instead of being re-invented per
+   component. */
 
 .rule-hairline {
   height: 1px;
@@ -108,13 +199,49 @@ main {
   background: var(--color-rule-strong);
 }
 
-/* Double rule: a heavier bar with a thin companion line beneath it,
-   the way a printed section flag sits above its column — used once per
-   homepage section, not stacked with any other divider treatment. */
+/* The system's signature rule: a thin teal → violet gradient bar with a
+   soft glow, standing in for the old flat "print" rule everywhere a
+   section needs a strong horizontal mark — section heads, mini topic
+   columns, etc. */
+.rule-glow {
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    var(--color-accent),
+    var(--color-accent-2) 55%,
+    transparent
+  );
+  box-shadow: var(--shadow-accent-sm);
+}
+
+/* Double rule → reworked as the same glow gradient, symmetric and
+   fading at both ends, used for the title-less section dividers
+   (between the homepage's closing brand/topic rows). */
 .rule-double {
-  border-top: 3px solid var(--color-rule-strong);
-  border-bottom: 1px solid var(--color-rule-strong);
-  height: 5px;
+  height: 2px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-accent) 18%,
+    var(--color-accent-2) 50%,
+    var(--color-accent) 82%,
+    transparent
+  );
+  box-shadow: var(--shadow-accent-sm);
+}
+
+/* Frosted-glass panel — used for the homepage's editorial "well"
+   sections (hero sidebar, opinion column) so they read as distinct,
+   slightly-elevated surfaces floating over the ambient background
+   rather than flat colour blocks. */
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
 }
 
 .text-balance {
@@ -123,7 +250,9 @@ main {
 
 /* Drop cap for the first paragraph of long-form article bodies. Applied
    via a data attribute from the article page rather than a blanket
-   :first-of-type, so short deks/captions never accidentally get one. */
+   :first-of-type, so short deks/captions never accidentally get one.
+   Set in the accent colour (rather than plain ink) so it doubles as a
+   small "premium edition" flourish against the dark page. */
 [data-drop-cap] > p:first-child::first-letter {
   float: left;
   font-family: var(--font-serif);
@@ -132,7 +261,7 @@ main {
   line-height: 0.82;
   padding-right: 0.09em;
   padding-top: 0.03em;
-  color: var(--color-ink);
+  color: var(--color-accent);
 }
 
 @media (prefers-reduced-motion: reduce) {

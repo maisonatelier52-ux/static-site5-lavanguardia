@@ -9,9 +9,32 @@ import MultiTopicRow from "@/components/home/MultiTopicRow";
 import BrandTeaserRow from "@/components/home/BrandTeaserRow";
 import MostViewedSection from "@/components/home/MostViewedSection";
 
+const DESCRIPTION =
+  "Breaking U.S. news, business, finance and world coverage from La Vanguardia — top stories, markets and analysis updated throughout the day.";
+
+export const metadata = {
+  title: { absolute: "La Vanguardia — U.S., Business, Finance & World News" },
+  description: DESCRIPTION,
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "La Vanguardia — U.S., Business, Finance & World News",
+    description: DESCRIPTION,
+    url: "/",
+    type: "website",
+  },
+  twitter: {
+    title: "La Vanguardia — U.S., Business, Finance & World News",
+    description: DESCRIPTION,
+  },
+};
+
 // Note: the reference site's "Tools" and "EL PAÍS Wines" promo sections are
 // intentionally left out per request — every other section below matches
 // the reference's order, item counts, and layout shape.
+//
+// The old "Funds and plans" (Kutxabank-sponsored) and "EL PAÍS" sections
+// were dropped when the site moved to its 4 real categories — see the
+// header comment in data/homeLayout.js for why.
 //
 // Article CONTENT (title, dek, author, image, tag) now lives only in
 // data/categories/<category>.json. This page's layout — which article
@@ -38,32 +61,20 @@ export default function HomePage() {
           <ImageGridSection items={c.bestOfWeek.items} columns={4} />
         </HomeSection>
 
-        <HomeSection title={c.cryptos.title}>
-          <ArticleAdSection lead={c.cryptos.lead} columns={c.cryptos.columns} secondaryRow={c.cryptos.secondaryRow} adSize="mrec" />
+        <HomeSection title={c.markets.title}>
+          <ArticleAdSection lead={c.markets.lead} columns={c.markets.columns} secondaryRow={c.markets.secondaryRow} adSize="mrec" />
         </HomeSection>
 
         <HomeSection title={c.opinionAndAnalysis.title}>
           <OpinionSection items={c.opinionAndAnalysis.items} />
         </HomeSection>
 
-        <HomeSection title={c.economy.title}>
-          <ArticleAdSection lead={c.economy.lead} columns={c.economy.columns} />
+        <HomeSection title={c.business.title}>
+          <ArticleAdSection lead={c.business.lead} columns={c.business.columns} />
         </HomeSection>
 
         <HomeSection title={c.extras.title}>
           <ImageGridSection items={c.extras.items} columns={4} />
-        </HomeSection>
-
-        <HomeSection title={c.markets.title}>
-          <ArticleAdSection lead={c.markets.lead} columns={c.markets.columns} />
-        </HomeSection>
-
-        <HomeSection title={c.elPais.title}>
-          <ImageGridSection items={c.elPais.items} columns={4} />
-        </HomeSection>
-
-        <HomeSection title={c.fundsAndPlans.title} rightSlot={<SponsorLabel text={c.fundsAndPlans.sponsorLabel} />}>
-          <ArticleAdSection lead={c.fundsAndPlans.lead} columns={c.fundsAndPlans.columns} adSize="mrec" />
         </HomeSection>
 
         <HomeSection>
@@ -86,14 +97,9 @@ function NewsletterButton() {
   return (
     <button
       type="button"
-      className="border border-ink px-4 py-2 text-xs font-semibold text-ink transition-colors hover:border-accent hover:text-accent"
+      className="border border-white/15 px-4 py-2 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-ink transition-all hover:border-accent hover:text-accent hover:shadow-[var(--shadow-accent-sm)]"
     >
       Newsletter agenda
     </button>
   );
-}
-
-function SponsorLabel({ text }) {
-  if (!text) return null;
-  return <span className="text-xs font-semibold text-ink-faint">{text}</span>;
 }

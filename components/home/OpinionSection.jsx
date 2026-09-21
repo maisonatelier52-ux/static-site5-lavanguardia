@@ -2,18 +2,18 @@ import ArticleCard from "@/components/ArticleCard";
 
 /**
  * "Opinion and analysis" — reworked into an editorial "column well": a
- * tinted panel that visually separates opinion content from reported
- * news elsewhere on the page (a convention real magazines and papers
- * use — opinion pages read differently from news pages). The first item
- * (kicker "Editorial" in the source data) runs as the lead column voice,
- * larger and set apart from the other three.
+ * frosted-glass panel that visually separates opinion content from
+ * reported news elsewhere on the page (a convention real magazines and
+ * papers use — opinion pages read differently from news pages). The
+ * first item (kicker "Editorial" in the source data) runs as the lead
+ * column voice, larger and set apart from the other three.
  */
 export default function OpinionSection({ items }) {
   if (!items?.length) return null;
   const [lead, ...rest] = items;
 
   return (
-    <div className="bg-panel px-6 py-8 md:px-9 md:py-10">
+    <div className="glass border-l-2 border-accent/50 px-6 py-8 md:px-9 md:py-10">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.3fr_1fr]">
         <div className="border-b border-panel-line pb-8 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-9">
           <OpinionLead article={lead} />
@@ -38,7 +38,7 @@ function OpinionLead({ article }) {
   return (
     <article>
       {article.kicker && (
-        <p className="text-[11px] font-bold uppercase tracking-[0.05em] text-accent">{article.kicker}</p>
+        <p className="font-mono text-[10.5px] font-bold uppercase tracking-[0.1em] text-accent">{article.kicker}</p>
       )}
       <h3 className="mt-2 font-serif text-[1.7rem] italic font-semibold leading-[1.2] text-ink text-balance md:text-[2rem]">
         <a href={href} className="hover:text-accent-ink">
@@ -52,7 +52,7 @@ function OpinionLead({ article }) {
         </p>
       ))}
       {article.author && (
-        <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.04em] text-ink-faint">{article.author}</p>
+        <p className="mt-4 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-ink-faint">{article.author}</p>
       )}
     </article>
   );
