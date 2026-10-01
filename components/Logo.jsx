@@ -18,8 +18,23 @@ import siteConfig from "@/data/siteConfig.json";
  *
  * `shrink` renders the smaller sticky-header size (desktop only).
  * `mobile` renders the fixed mobile-header size.
+ * `glow` swaps the plain gold glow for a slow "breathing" teal/violet
+ * glow (the `.logo-glow-pulse` animation in globals.css) — used only on
+ * the main site header, where the "Cinematic glow" treatment wants the
+ * wordmark quietly alive. Every other usage (mobile, drawer, footer)
+ * keeps the static gold glow.
+ *
+ * Both glows are `filter: drop-shadow()`, NOT `text-shadow`, and that is
+ * deliberate. The wordmark span carries Tailwind's `truncate`
+ * (`overflow: hidden`, so a squeezed mobile logo ellipsizes instead of
+ * wrapping), and an element's own `overflow: hidden` clips its own
+ * `text-shadow` at its box edge — which drew a hard-edged tinted
+ * rectangle behind the logo once the glow got strong enough to see
+ * (the old faint gold one was clipped identically, just invisibly).
+ * `drop-shadow` is computed from the rendered glyphs and isn't clipped
+ * by the element's own overflow, so the glow follows the letters.
  */
-export default function Logo({ className = "", shrink = false, mobile = false }) {
+export default function Logo({ className = "", shrink = false, mobile = false, glow = false }) {
   return (
     <Link
       href="/"
@@ -35,7 +50,9 @@ export default function Logo({ className = "", shrink = false, mobile = false })
       ------------------------------------------------------------------ */}
 
       <span
-        className={`truncate font-serif font-black uppercase text-white transition-all duration-300 ease-out [text-shadow:0_0_26px_rgba(255,215,0,0.16)] ${
+        className={`truncate font-serif font-black uppercase text-white transition-all duration-300 ease-out ${
+          glow ? "logo-glow-pulse" : "[filter:drop-shadow(0_0_13px_rgba(255,215,0,0.16))]"
+        } ${
           mobile
             ? "text-lg tracking-[-0.01em]"
             : shrink

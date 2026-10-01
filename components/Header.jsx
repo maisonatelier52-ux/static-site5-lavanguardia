@@ -1,27 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
 import MobileNavDrawer from "./MobileNavDrawer";
-import siteConfig from "@/data/siteConfig.json";
+import HeaderSearch from "./HeaderSearch";
 
 function HamburgerIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
       <path d="M3 6h18M3 12h18M3 18h18" strokeLinecap="round" />
-    </svg>
-  );
-}
-
-// Filled/solid account glyph — matches the reference mobile header exactly
-// (no outline circle, just a solid silhouette).
-function AccountIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <circle cx="12" cy="8" r="4" />
-      <path d="M4 20.5c0-4.42 3.58-7.5 8-7.5s8 3.08 8 7.5V21H4v-.5z" />
     </svg>
   );
 }
@@ -52,8 +40,8 @@ export default function Header() {
 
   // Collapses the desktop category row and shrinks the logo once the page
   // scrolls past the top, matching the reference site's compact sticky
-  // header (see header-after-sticky.png). The hamburger and Subscribe
-  // button stay a fixed size/position in both states.
+  // header (see header-after-sticky.png). The hamburger and search bar
+  // stay a fixed size/position in both states.
   //
   // The hysteresis band (collapse past 160px, re-expand below 20px) has
   // to stay wider than the header's own height delta between the two
@@ -113,53 +101,67 @@ export default function Header() {
           scrolled ? "max-h-0 opacity-0" : "max-h-9 opacity-100"
         }`}
       >
-        <div className="mx-auto flex max-w-[1440px] items-center justify-between px-6 py-2 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-white/45">
+        <div className="mx-auto flex max-w-[1440px] items-center px-6 py-2 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-white/45">
           <span>{dateline || "\u00A0"}</span>
-          <span className="flex items-center gap-2">
-            <span className="h-1 w-1 rounded-full bg-accent shadow-[0_0_6px_var(--color-accent)]" aria-hidden="true" />
-            Edition · Barcelona
-          </span>
         </div>
       </div>
 
-      {/* Desktop / tablet header row */}
-      <div
-        className={`mx-auto hidden max-w-[1440px] items-center justify-between px-6 md:flex transition-[padding] duration-300 ease-out ${
-          scrolled ? "py-3" : "py-5"
-        }`}
-      >
-        <button
-          type="button"
-          onClick={() => setDrawerOpen(true)}
-          aria-label="Open menu"
-          aria-haspopup="dialog"
-          aria-expanded={drawerOpen}
-          className="flex h-10 w-10 shrink-0 items-center justify-center text-white transition-colors hover:text-accent hover:drop-shadow-[0_0_8px_var(--color-accent)]"
+      {/* Desktop / tablet: hamburger, logo, search share one row. The row
+          itself is `relative` only so the mobile drawer/backdrop below it
+          in the DOM has no effect on this — HeaderSearch positions its
+          own dropdown against its own wrapper (see HeaderSearch.jsx), not
+          against this row. */}
+      <div className="relative hidden md:block">
+        {/* Three-track grid instead of flex `justify-between`. With
+            `justify-between` the logo just sits wherever the gaps fall,
+            so it's only truly centered when the hamburger and search bar
+            happen to be the same width — they aren't (40px vs ~220px),
+            which pushed the logo 85px left of the page center while the
+            nav row below (centered on its own) stayed put. Two equal
+            `minmax(0,1fr)` side tracks around an `auto` middle track
+            center the logo on the page regardless of what's in either
+            side — and keep it there when the search field expands. */}
+        <div
+          className={`mx-auto grid max-w-[1440px] grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-4 px-6 transition-[padding] duration-300 ease-out ${
+            scrolled ? "py-3" : "py-5"
+          }`}
         >
-          <HamburgerIcon />
-        </button>
+          <button
+            type="button"
+            onClick={() => setDrawerOpen(true)}
+            aria-label="Open menu"
+            aria-haspopup="dialog"
+            aria-expanded={drawerOpen}
+            className="flex h-10 w-10 shrink-0 items-center justify-center justify-self-start text-white transition-colors hover:text-accent hover:drop-shadow-[0_0_8px_var(--color-accent)]"
+          >
+            <HamburgerIcon />
+          </button>
 
-        <Logo shrink={scrolled} />
+          <Logo shrink={scrolled} glow />
 
-        <Link
-          href="/subscribe"
-          className="shrink-0 bg-gold px-6 py-2.5 text-[13px] font-bold uppercase tracking-wide text-black transition-all hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[var(--shadow-gold)]"
+          <div className="min-w-0">
+            <HeaderSearch />
+          </div>
+        </div>
+
+        {/* Desktop category nav row — collapses away on scroll. No
+            separate background here (previously bg-cream): the header's
+            own translucent ambient-glow surface now carries through the
+            whole masthead uniformly, matching the approved "Cinematic
+            glow" concept rather than breaking into a flatter strip. */}
+        <div
+          className={`overflow-hidden border-t border-white/[0.06] transition-all duration-300 ease-out ${
+            scrolled ? "max-h-0 opacity-0" : "max-h-16 opacity-100"
+          }`}
         >
-          {siteConfig.subscribeLabel}
-        </Link>
+          <MainNav className="mx-auto max-w-[1440px] px-6" />
+        </div>
       </div>
 
-      {/* Desktop category nav row — collapses away on scroll */}
-      <div
-        className={`hidden overflow-hidden border-t border-white/[0.06] bg-cream transition-all duration-300 ease-out md:block ${
-          scrolled ? "max-h-0 opacity-0" : "max-h-16 opacity-100"
-        }`}
-      >
-        <MainNav className="mx-auto max-w-[1440px] px-6" />
-      </div>
-
-      {/* Mobile header row — hamburger, logo, account icon only */}
-      <div className="flex items-center justify-between gap-3 px-4 py-3 md:hidden">
+      {/* Mobile header row — hamburger, logo, search. `relative` for the
+          same reason as the desktop wrapper above: HeaderSearch's results
+          panel positions against this row's full width. */}
+      <div className="relative flex items-center justify-between gap-3 px-4 py-3 md:hidden">
         <button
           type="button"
           onClick={() => setDrawerOpen(true)}
@@ -173,13 +175,7 @@ export default function Header() {
 
         <Logo mobile className="min-w-0 flex-1" />
 
-        <Link
-          href="/account"
-          aria-label="Account"
-          className="flex h-8 w-8 shrink-0 items-center justify-center text-white"
-        >
-          <AccountIcon />
-        </Link>
+        <HeaderSearch mobile />
       </div>
 
       {/* Signature gradient edge — the same teal→violet glow used on

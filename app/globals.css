@@ -95,6 +95,61 @@ html,
   overflow-anchor: none;
 }
 
+/* "Cinematic glow" header treatment (the direction chosen from the
+   header-polish mockups): the glass masthead lets soft ambient color
+   bleed through rather than sitting as a flat navy panel — the same
+   teal/violet blooms used on the page background, just faint enough not
+   to fight the header's own content. */
+[data-site-header] {
+  background-image: radial-gradient(ellipse 500px 240px at 12% 0%, rgba(124, 108, 255, 0.16), transparent 60%),
+    radial-gradient(ellipse 500px 240px at 92% 100%, rgba(47, 230, 201, 0.13), transparent 60%);
+}
+
+/* Slow breathing glow on the header wordmark (`Logo`'s `glow` prop),
+   cycling between the site's two accent hues so it never reads as one
+   flat color. Animates `filter: drop-shadow()` rather than `text-shadow`
+   on purpose — see the comment in Logo.jsx: the wordmark's own
+   `overflow: hidden` (from `truncate`) clips text-shadow into a visible
+   rectangle, while a drop-shadow filter follows the glyphs and escapes
+   the clip. */
+@keyframes logo-glow-pulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 10px rgba(124, 108, 255, 0.42)) drop-shadow(0 0 24px rgba(124, 108, 255, 0.22));
+  }
+  50% {
+    filter: drop-shadow(0 0 12px rgba(47, 230, 201, 0.4)) drop-shadow(0 0 28px rgba(47, 230, 201, 0.24));
+  }
+}
+.logo-glow-pulse {
+  animation: logo-glow-pulse 3.6s ease-in-out infinite;
+}
+
+/* Animated gradient-sweep ring for the header search bar while it's
+   active (HeaderSearch's `search-bar-active` class) — a slim rotating
+   teal→violet border drawn as a masked pseudo-element, so only the 1px
+   ring itself is colored rather than the whole pill. Degrades to a
+   static ring under prefers-reduced-motion via the global rule below. */
+@keyframes search-border-sweep {
+  to {
+    background-position: 200% 0%;
+  }
+}
+.search-bar-active::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(120deg, var(--color-accent), var(--color-accent-2), var(--color-accent));
+  background-size: 200% 200%;
+  animation: search-border-sweep 2.4s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
 body {
   font-family: var(--font-sans);
   /* Keeps the footer pinned to the bottom of the viewport on short pages */
