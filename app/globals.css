@@ -224,6 +224,21 @@ main {
   outline-offset: 2px;
 }
 
+/* The header search field already has its own clear focus treatment —
+   the pill's border lights up, gains a glow, and (while active) an
+   animated gradient-sweep ring — so the rule above is redundant on it,
+   and drawing both at once is what put a visible rectangle inside the
+   pill. Tailwind's own `focus-visible:outline-none` utility can't win
+   that fight: Tailwind v4 puts its utilities inside a CSS cascade layer,
+   and per spec, ANY unlayered rule beats EVERY layered one regardless of
+   specificity — so the plain (unlayered) rule above always wins over a
+   layered utility, no matter how specific the utility's selector is.
+   This rule is also unlayered, so it competes on specificity like
+   normal, and (correctly) wins here. */
+input[aria-label="Search articles"]:focus-visible {
+  outline: none;
+}
+
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
